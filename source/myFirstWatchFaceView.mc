@@ -129,8 +129,16 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     //var screenSaverTimer = new Toybox.Timer.Timer();
     //screenSaverTimer.start()
     // if (clockTime.min == 59 && clockTime.sec == 59) {
-    if (clockTime.sec == 59 && isAwake) {
-    //if (clockTime.min == 59) {
+    if (
+      (clockTime.sec == 59 && isAwake) ||
+      ((clockTime.hour == 1 ||
+        clockTime.hour == 2 ||
+        clockTime.hour == 3 ||
+        clockTime.hour == 4 ||
+        clockTime.hour == 5) &&
+        clockTime.min == 5)
+    ) {
+      //if (clockTime.min == 59) {
       dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
       dc.fillCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2);
     }

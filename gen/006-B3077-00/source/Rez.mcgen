@@ -1,0 +1,44 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_text_HourMinute = new WatchUi.Text({:identifier=>"HourMinute", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>((240 - dc.getFontHeight(Graphics.FONT_NUMBER_THAI_HOT)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            var rez_cmp_local_text_Date = new WatchUi.Text({:identifier=>"Date", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (13 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_DayOfWeek = new WatchUi.Text({:identifier=>"DayOfWeek", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (26 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+
+            var rez_cmp_local_text_FeelsLike = new WatchUi.Text({:identifier=>"FeelsLike", :color=>Graphics.COLOR_GREEN, :locX=>(240 * (30 / 100.0)), :locY=>(240 * (65 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_Precipitation = new WatchUi.Text({:identifier=>"Precipitation", :color=>Graphics.COLOR_GREEN, :locX=>(240 * (70 / 100.0)), :locY=>(240 * (65 / 100.0)), :text=>"--", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_name = new WatchUi.Text({:identifier=>"name", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (3 / 100.0)), :text=>"Loqui\u00F1o", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_emoji = new WatchUi.Text({:identifier=>"emoji", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (85 / 100.0)), :text=>"Smile!", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+
+            return [rez_cmp_local_text_HourMinute, rez_cmp_local_text_Date, rez_cmp_local_text_DayOfWeek, rez_cmp_local_text_FeelsLike, rez_cmp_local_text_Precipitation, rez_cmp_local_text_name, rez_cmp_local_text_emoji] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var AppName as Symbol;
+    } // Strings
+} // Rez
