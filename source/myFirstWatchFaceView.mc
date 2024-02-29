@@ -4,14 +4,12 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.Time;
 import Toybox.Weather;
+import Toybox.Activity;
 
 class myFirstWatchFaceView extends WatchUi.WatchFace {
   var screenWidth;
   var screenHeight;
   var clockTime;
-  var batteryLvl;
-  var temperature;
-  var precipitationChance;
   var isAwake;
   function initialize() {
     WatchFace.initialize();
@@ -33,118 +31,216 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
 
   // Update the view
   function onUpdate(dc as Dc) as Void {
-    // Get and show the date
-    var dateSys = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-    var dateString =
-      dateSys.day.format("%02d") +
-      " " +
-      //dateSys.month.format("%02d") + "-" +
-      [
-        "Ene",
-        "Feb",
-        "Mar",
-        "Abr",
-        "May",
-        "Jun",
-        "Jul",
-        "Ago",
-        "Sep",
-        "Oct",
-        "Nov",
-        "Dic",
-      ][dateSys.month - 1] +
-      " " +
-      dateSys.year.format("%4d");
-    var dateDisplay = View.findDrawableById("Date") as Text;
-    dateDisplay.setText(dateString);
-
-    // Get and show the current time
-    clockTime = System.getClockTime();
-    var timeString = Lang.format("$1$:$2$", [
-      clockTime.hour,
-      clockTime.min.format("%02d"),
-    ]);
-    var hourMinute = View.findDrawableById("HourMinute") as Text;
-    hourMinute.setText(timeString);
-
-    // Call the parent onUpdate function to redraw the layout
-
-    // Get and show dat of the week
-    var DayOfWeekElement = View.findDrawableById("DayOfWeek") as Text;
-    DayOfWeekElement.setText(
-      [
-        "Domingo",
-        "Lunes",
-        "Martes",
-        "Mi\u00e9rcoles",
-        "Jueves",
-        "Viernes",
-        "S\u00E1bado",
-      ][dateSys.day_of_week - 1]
-    );
-
-    // Weather
-    temperature = Weather.getCurrentConditions().feelsLikeTemperature;
-    var temperatureStr = temperature.format("%d") + " \u00B0C";
-    var FeelsLikeElement = View.findDrawableById("FeelsLike") as Text;
-    FeelsLikeElement.setText(temperatureStr);
-
-    precipitationChance = Weather.getCurrentConditions().precipitationChance;
-    var precipStr = precipitationChance.format("%d") + "%";
-    var precipElement = View.findDrawableById("Precipitation") as Text;
-    precipElement.setText(precipStr);
-
     View.onUpdate(dc); // Any dc.draw must be donw after this line
+    // Get and show the current time
+    clockTime = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+
+    screenSaver(dc, true);
+    drawName(dc);
+    drawSlogan(dc);
+    drawHourMinute(dc);
+    drawDate(dc);
+    drawWeekDay(dc);
+    drawWeather(dc);
+    drawBattery(dc);
 
     // Draw a cicle around the watch
     dc.setPenWidth(2);
     dc.drawCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2 - 1);
     dc.setPenWidth(1);
 
-    // Get and show the battery
-    batteryLvl = System.getSystemStats().battery;
-
-    if (batteryLvl < 20) {
-      // set pen color
-      dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-      // draw battery
-      drawBattery(dc);
-    } else {
-      // draw battery
-      drawBattery(dc);
-    }
-
     // show the second
     if (isAwake) {
-      dc.drawText(
-        screenWidth / 2,
-        screenHeight * 0.65,
-        Graphics.FONT_SMALL,
-        clockTime.sec.format("%02d"),
-        Graphics.TEXT_JUSTIFY_CENTER
-      );
+      drawSec(dc);
+      drawHeartRate(dc);
     }
+  }
+  function screenSaver(dc as Dc, active as Boolean) {
+    if (active == true) {
+      var colors = [
+        Graphics.COLOR_YELLOW,
+        Graphics.COLOR_GREEN,
+        Graphics.COLOR_BLUE,
+        Graphics.COLOR_DK_GRAY,
+        Graphics.COLOR_PURPLE,
+        Graphics.COLOR_PINK,
+        Graphics.COLOR_WHITE,
+      ];
+      var textColor = colors[clockTime.min % 7];
 
-    // Screen Saver
-    //var screenSaverTimer = new Toybox.Timer.Timer();
-    //screenSaverTimer.start()
-    // if (clockTime.min == 59 && clockTime.sec == 59) {
-    if (
-      (clockTime.sec == 59 && isAwake) ||
-      ((clockTime.hour == 1 ||
-        clockTime.hour == 2 ||
-        clockTime.hour == 3 ||
-        clockTime.hour == 4 ||
-        clockTime.hour == 5) &&
-        clockTime.min == 5)
-    ) {
-      //if (clockTime.min == 59) {
-      dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
-      dc.fillCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2);
+      if (clockTime.min % 20 == 0) {
+        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        dc.fillCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2);
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+      } else {
+        dc.setColor(textColor, Graphics.COLOR_TRANSPARENT);
+      }
     }
   }
 
+  function drawName(dc as Dc) as Void {
+    dc.drawText(
+      screenWidth / 2,
+      screenHeight * 0.03,
+      Graphics.FONT_SYSTEM_TINY,
+      "loqui\u00F1o",
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawSlogan(dc as Dc) as Void {
+    dc.drawText(
+      screenWidth / 2,
+      screenHeight * 0.85,
+      Graphics.FONT_SYSTEM_TINY,
+      "smile!",
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawHourMinute(dc as Dc) as Void {
+    // set the the coords
+    var HMx = screenWidth / 2;
+    var HMy = screenHeight * 0.3;
+
+    // Buil HMstr
+    var HMstr = Lang.format("$1$:$2$", [
+      clockTime.hour.format("%d"),
+      clockTime.min.format("%02d"),
+    ]);
+
+    dc.drawText(
+      HMx,
+      HMy,
+      Graphics.FONT_NUMBER_THAI_HOT,
+      HMstr,
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawSec(dc as Dc) as Void {
+    dc.drawText(
+      screenWidth * 0.94,
+      screenHeight * 0.45,
+      Graphics.FONT_TINY,
+      clockTime.sec.format("%02d"),
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawDate(dc as Dc) as Void {
+    //set the coords
+    var datex = screenWidth / 2;
+    var datey = screenHeight * 0.14;
+    // Build datestr
+    var dateStr =
+      clockTime.day.format("%02d") +
+      " " +
+      //clockTime.month.format("%02d") + "-" +
+      [
+        "ENE",
+        "FEB",
+        "MAR",
+        "ABR",
+        "MAY",
+        "JUN",
+        "JUL",
+        "AGO",
+        "SEP",
+        "OCT",
+        "NOV",
+        "DIC",
+      ][clockTime.month - 1] +
+      " " +
+      clockTime.year.format("%4d");
+
+    // Draw the date
+    dc.drawText(
+      datex,
+      datey,
+      Graphics.FONT_SMALL,
+      dateStr,
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawWeekDay(dc as Dc) as Void {
+    // set the coords
+    var weekDayx = screenWidth / 2;
+    var weekDayy = screenHeight * 0.26;
+
+    // set weekDatstr
+    var weekDaystr = [
+      "DOMINGO",
+      "LUNES",
+      "MARTES",
+      "MI\u00C9RCOLES",
+      "JUEVES",
+      "VIERNES",
+      "S\u00C1BADO",
+    ][clockTime.day_of_week - 1];
+
+    // draw weekDay
+    dc.drawText(
+      weekDayx,
+      weekDayy,
+      Graphics.FONT_SMALL,
+      weekDaystr,
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
+  function drawWeather(dc as Dc) as Void {
+    // temperature
+    // coords
+    var tempx = screenWidth * 0.3;
+    var tempy = screenHeight * 0.65;
+
+    // str
+    var temperature = Weather.getCurrentConditions().feelsLikeTemperature;
+    var temperatureStr = temperature.format("%d") + "\u00B0C";
+
+    // Draw temperature
+    dc.drawText(
+      tempx,
+      tempy,
+      Graphics.FONT_SMALL,
+      temperatureStr,
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+
+    // Precipitation chance
+    // coords
+    var precipx = screenWidth * 0.7;
+    var precipy = screenHeight * 0.65;
+
+    // str
+    var precipitationChance =
+      Weather.getCurrentConditions().precipitationChance;
+    var precipStr = precipitationChance.format("%d") + "%";
+
+    // draw precip
+    dc.drawText(
+      precipx,
+      precipy,
+      Graphics.FONT_SMALL,
+      precipStr,
+      Graphics.TEXT_JUSTIFY_CENTER
+    );
+  }
+
   function drawBattery(dc as Dc) as Void {
+    var batteryLvl = System.getSystemStats().battery;
+    if (batteryLvl < 20) {
+      // Screensaving
+      if (clockTime.min % 20 == 0) {
+        dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
+      } else {
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+      }
+      dc.clear();
+    }
+
     // set the coords
     var batx = screenWidth / 2;
     var baty = (screenHeight * 3.9) / 5;
@@ -175,6 +271,29 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       (batIconWid * batteryLvl) / 100,
       batIconHei,
       2
+    );
+  }
+
+  function drawHeartRate(dc as Dc) as Void {
+    var activityInfo = Activity.getActivityInfo();
+    var heartRateStr = "--";
+    if (activityInfo != null) {
+      var heartRate = Activity.getActivityInfo().currentHeartRate;
+      if (heartRate) {
+        heartRateStr = heartRate.format("%d");
+      }
+    }
+
+    // draw the heart rate
+    var heartx = screenWidth * 0.5;
+    var hearty = screenHeight * 0.65;
+    dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+    dc.drawText(
+      heartx,
+      hearty,
+      Graphics.FONT_SMALL,
+      heartRateStr,
+      Graphics.TEXT_JUSTIFY_CENTER
     );
   }
 
