@@ -32,41 +32,42 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
   // Update the view
   function onUpdate(dc as Dc) as Void {
     View.onUpdate(dc); // Any dc.draw must be donw after this line
-    // Get and show the current time
+    // Get the current time
     clockTime = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
     screenSaver(dc, true);
-    drawName(dc);
-    drawSlogan(dc);
+    drawTopText(dc);
+    drawBottomText(dc);
     drawHourMinute(dc);
     drawDate(dc);
     drawWeekDay(dc);
     drawWeather(dc);
     drawBattery(dc);
+    drawOutterCircle(dc);
 
-    // Draw a cicle around the watch
-    dc.setPenWidth(2);
-    dc.drawCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2 - 1);
-    dc.setPenWidth(1);
-
-    // show the second
+    // show the second and heart rate when awake
     if (isAwake) {
       drawSec(dc);
       drawHeartRate(dc);
     }
   }
+
+  function drawOutterCircle(dc as Dc) as Void {
+    dc.setPenWidth(2);
+    dc.drawCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2 - 1);
+    dc.setPenWidth(1);
+  }
+
   function screenSaver(dc as Dc, active as Boolean) {
     if (active == true) {
       var colors = [
         Graphics.COLOR_YELLOW,
         Graphics.COLOR_GREEN,
         Graphics.COLOR_BLUE,
-        Graphics.COLOR_DK_GRAY,
-        Graphics.COLOR_PURPLE,
         Graphics.COLOR_PINK,
         Graphics.COLOR_WHITE,
       ];
-      var textColor = colors[clockTime.min % 7];
+      var textColor = colors[clockTime.min % 5];
 
       if (clockTime.min % 20 == 0) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
@@ -78,30 +79,31 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     }
   }
 
-  function drawName(dc as Dc) as Void {
+  function drawTopText(dc as Dc) as Void {
     dc.drawText(
       screenWidth / 2,
-      screenHeight * 0.03,
+      screenHeight * 0.1,
       Graphics.FONT_SYSTEM_TINY,
-      "loqui\u00F1o",
-      Graphics.TEXT_JUSTIFY_CENTER
+      // "loqui\u00F1o",
+      "deep breath",
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
-  function drawSlogan(dc as Dc) as Void {
+  function drawBottomText(dc as Dc) as Void {
     dc.drawText(
-      screenWidth / 2,
-      screenHeight * 0.85,
+      screenWidth * 0.5,
+      screenHeight * 0.93,
       Graphics.FONT_SYSTEM_TINY,
       "smile!",
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
   function drawHourMinute(dc as Dc) as Void {
     // set the the coords
-    var HMx = screenWidth / 2;
-    var HMy = screenHeight * 0.3;
+    var HMx = screenWidth * 0.5;
+    var HMy = screenHeight * 0.52;
 
     // Buil HMstr
     var HMstr = Lang.format("$1$:$2$", [
@@ -109,29 +111,30 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       clockTime.min.format("%02d"),
     ]);
 
+    // Draw heart rate
     dc.drawText(
       HMx,
       HMy,
       Graphics.FONT_NUMBER_THAI_HOT,
       HMstr,
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
   function drawSec(dc as Dc) as Void {
     dc.drawText(
       screenWidth * 0.94,
-      screenHeight * 0.45,
+      screenHeight * 0.52,
       Graphics.FONT_TINY,
       clockTime.sec.format("%02d"),
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
   function drawDate(dc as Dc) as Void {
     //set the coords
-    var datex = screenWidth / 2;
-    var datey = screenHeight * 0.14;
+    var datex = screenWidth * 0.5;
+    var datey = screenHeight * 0.22;
     // Build datestr
     var dateStr =
       clockTime.day.format("%02d") +
@@ -160,14 +163,14 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       datey,
       Graphics.FONT_SMALL,
       dateStr,
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
   function drawWeekDay(dc as Dc) as Void {
     // set the coords
-    var weekDayx = screenWidth / 2;
-    var weekDayy = screenHeight * 0.26;
+    var weekDayx = screenWidth * 0.5;
+    var weekDayy = screenHeight * 0.34;
 
     // set weekDatstr
     var weekDaystr = [
@@ -186,15 +189,15 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       weekDayy,
       Graphics.FONT_SMALL,
       weekDaystr,
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
   function drawWeather(dc as Dc) as Void {
     // temperature
     // coords
-    var tempx = screenWidth * 0.3;
-    var tempy = screenHeight * 0.65;
+    var tempx = screenWidth * 0.29;
+    var tempy = screenHeight * 0.7;
 
     // str
     var temperature = Weather.getCurrentConditions().feelsLikeTemperature;
@@ -206,13 +209,13 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       tempy,
       Graphics.FONT_SMALL,
       temperatureStr,
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
 
     // Precipitation chance
     // coords
     var precipx = screenWidth * 0.7;
-    var precipy = screenHeight * 0.65;
+    var precipy = tempy;
 
     // str
     var precipitationChance =
@@ -225,7 +228,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       precipy,
       Graphics.FONT_SMALL,
       precipStr,
-      Graphics.TEXT_JUSTIFY_CENTER
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
 
@@ -241,24 +244,24 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       dc.clear();
     }
 
-    // set the coords
-    var batx = screenWidth / 2;
-    var baty = (screenHeight * 3.9) / 5;
-    var batIconWid = screenWidth / 8;
-    var batIconHei = batIconWid / 2;
+    // set the coords and size
+    var batx = screenWidth * 0.5;
+    var baty = screenHeight * 0.8;
+    var batIconWid = screenWidth * 0.1;
+    var batIconHei = batIconWid * 0.57;
 
     var batTipx = batx + batIconWid;
     var batTipy = baty + (batIconHei * 2) / 6;
 
-    var textx = batx - batIconWid / 5;
-    var texty = baty + batIconHei / 3 + 1;
+    var textx = batx - batIconWid * 0.8;
+    var texty = baty + batIconHei * 0.4;
     // Draw text
     dc.drawText(
       textx,
       texty,
       Graphics.FONT_TINY,
       batteryLvl.format("%d") + "%",
-      Graphics.TEXT_JUSTIFY_VCENTER
+      Graphics.TEXT_JUSTIFY_VCENTER | Graphics.TEXT_JUSTIFY_CENTER
     );
     // draw battery
     dc.drawRoundedRectangle(batx, baty, batIconWid, batIconHei, 2);
