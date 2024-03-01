@@ -203,11 +203,17 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var tempx = screenWidth * 0.29;
     var tempy = screenHeight * 0.7;
 
+    // get the weather info
+    var weather = Weather.getCurrentConditions();
+    var temperature = null;
+
     // str
     var temperatureStr = "--";
-    var temperature = Weather.getCurrentConditions().feelsLikeTemperature;
-    if (temperature != null) {
-      temperatureStr = temperature.format("%3d") + "\u00B0C";
+    if (weather != null) {
+      temperature = weather.feelsLikeTemperature;
+      if (temperature != null) {
+        temperatureStr = temperature.format("%3d") + "\u00B0C";
+      }
     }
     // Draw temperature
     dc.drawText(
@@ -224,9 +230,14 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var precipy = tempy;
 
     // str
-    var precipitationChance =
-      Weather.getCurrentConditions().precipitationChance;
-    var precipStr = precipitationChance.format("%3d") + "%";
+    var precipStr = "--";
+    var precipitationChance = null;
+    if (weather != null) {
+      precipitationChance = weather.precipitationChance;
+      if (precipitationChance != null) {
+        precipStr = precipitationChance.format("%3d") + "%";
+      }
+    }
 
     // draw precip
     dc.drawText(
@@ -285,10 +296,10 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
   }
 
   function drawHeartRate(dc as Dc) as Void {
-    var activityInfo = Activity.getActivityInfo();
     var heartRateStr = "--";
+    var activityInfo = Activity.getActivityInfo();
     if (activityInfo != null) {
-      var heartRate = Activity.getActivityInfo().currentHeartRate;
+      var heartRate = activityInfo.currentHeartRate;
       if (heartRate != null) {
         heartRateStr = heartRate.format("%3d");
       }
