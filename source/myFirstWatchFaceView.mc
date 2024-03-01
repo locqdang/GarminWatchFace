@@ -35,7 +35,11 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     // Get the current time
     clockTime = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
+    // set dc color with screensaver
     screenSaver(dc, true);
+    dc.clear(); // this is supposed to avoid overlapping with default watch face
+
+    // draw the watch face
     drawTopText(dc);
     drawBottomText(dc);
     drawHourMinute(dc);
@@ -50,6 +54,8 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       drawSec(dc);
       drawHeartRate(dc);
     }
+
+    //
   }
 
   function drawOutterCircle(dc as Dc) as Void {
@@ -67,9 +73,10 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
         Graphics.COLOR_PINK,
         Graphics.COLOR_WHITE,
       ];
-      var textColor = colors[clockTime.min % 5];
 
-      if (clockTime.min % 20 == 0) {
+      var textColor = colors[clockTime.hour % 5];
+
+      if (clockTime.min % 30 == 0) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2);
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);

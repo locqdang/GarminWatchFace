@@ -88,82 +88,86 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.13 = getv %tmp.12 :FORMAT_SHORT;
         %tmp.14 = invoke %tmp.7 %tmp.8(%tmp.11, %tmp.13);
         putv self :clockTime %tmp.14;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 38 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 39 4 ]
         %tmp.15 = self;
         %tmp.16 = getv function %tmp.15 :screenSaver;
         %tmp.18 = lgetv %dc;
         %tmp.19 = true;
         invoke %tmp.15 %tmp.16(%tmp.18, %tmp.19);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 39 4 ]
-        %tmp.20 = self;
-        %tmp.21 = getv function %tmp.20 :drawTopText;
-        %tmp.23 = lgetv %dc;
-        invoke %tmp.20 %tmp.21(%tmp.23);
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 40 4 ]
-        %tmp.24 = self;
-        %tmp.25 = getv function %tmp.24 :drawBottomText;
-        %tmp.27 = lgetv %dc;
-        invoke %tmp.24 %tmp.25(%tmp.27);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 41 4 ]
-        %tmp.28 = self;
-        %tmp.29 = getv function %tmp.28 :drawHourMinute;
-        %tmp.31 = lgetv %dc;
-        invoke %tmp.28 %tmp.29(%tmp.31);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 42 4 ]
-        %tmp.32 = self;
-        %tmp.33 = getv function %tmp.32 :drawDate;
-        %tmp.35 = lgetv %dc;
-        invoke %tmp.32 %tmp.33(%tmp.35);
+        %tmp.20 = lgetv %dc;
+        %tmp.21 = getv function %tmp.20 :clear;
+        invoke %tmp.20 %tmp.21();
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 43 4 ]
-        %tmp.36 = self;
-        %tmp.37 = getv function %tmp.36 :drawWeekDay;
-        %tmp.39 = lgetv %dc;
-        invoke %tmp.36 %tmp.37(%tmp.39);
+        %tmp.22 = self;
+        %tmp.23 = getv function %tmp.22 :drawTopText;
+        %tmp.25 = lgetv %dc;
+        invoke %tmp.22 %tmp.23(%tmp.25);
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 44 4 ]
-        %tmp.40 = self;
-        %tmp.41 = getv function %tmp.40 :drawWeather;
-        %tmp.43 = lgetv %dc;
-        invoke %tmp.40 %tmp.41(%tmp.43);
+        %tmp.26 = self;
+        %tmp.27 = getv function %tmp.26 :drawBottomText;
+        %tmp.29 = lgetv %dc;
+        invoke %tmp.26 %tmp.27(%tmp.29);
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 45 4 ]
-        %tmp.44 = self;
-        %tmp.45 = getv function %tmp.44 :drawBattery;
-        %tmp.47 = lgetv %dc;
-        invoke %tmp.44 %tmp.45(%tmp.47);
+        %tmp.30 = self;
+        %tmp.31 = getv function %tmp.30 :drawHourMinute;
+        %tmp.33 = lgetv %dc;
+        invoke %tmp.30 %tmp.31(%tmp.33);
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 46 4 ]
-        %tmp.48 = self;
-        %tmp.49 = getv function %tmp.48 :drawOutterCircle;
-        %tmp.51 = lgetv %dc;
-        invoke %tmp.48 %tmp.49(%tmp.51);
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :drawDate;
+        %tmp.37 = lgetv %dc;
+        invoke %tmp.34 %tmp.35(%tmp.37);
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 47 4 ]
+        %tmp.38 = self;
+        %tmp.39 = getv function %tmp.38 :drawWeekDay;
+        %tmp.41 = lgetv %dc;
+        invoke %tmp.38 %tmp.39(%tmp.41);
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 48 4 ]
+        %tmp.42 = self;
+        %tmp.43 = getv function %tmp.42 :drawWeather;
+        %tmp.45 = lgetv %dc;
+        invoke %tmp.42 %tmp.43(%tmp.45);
 [ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 49 4 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_4_if_stmt:
-        %tmp.53 = getv ? :isAwake;
-        bf %tmp.53 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_4_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_17_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 50 6 ]
-        %tmp.54 = self;
-        %tmp.55 = getv function %tmp.54 :drawSec;
-        %tmp.57 = lgetv %dc;
-        invoke %tmp.54 %tmp.55(%tmp.57);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 51 6 ]
-        %tmp.58 = self;
-        %tmp.59 = getv function %tmp.58 :drawHeartRate;
-        %tmp.61 = lgetv %dc;
-        invoke %tmp.58 %tmp.59(%tmp.61);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_17_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_49_4_if_end:
+        %tmp.46 = self;
+        %tmp.47 = getv function %tmp.46 :drawBattery;
+        %tmp.49 = lgetv %dc;
+        invoke %tmp.46 %tmp.47(%tmp.49);
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 50 4 ]
+        %tmp.50 = self;
+        %tmp.51 = getv function %tmp.50 :drawOutterCircle;
+        %tmp.53 = lgetv %dc;
+        invoke %tmp.50 %tmp.51(%tmp.53);
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 53 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_4_if_stmt:
+        %tmp.55 = getv ? :isAwake;
+        bf %tmp.55 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_4_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_17_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 54 6 ]
+        %tmp.56 = self;
+        %tmp.57 = getv function %tmp.56 :drawSec;
+        %tmp.59 = lgetv %dc;
+        invoke %tmp.56 %tmp.57(%tmp.59);
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 55 6 ]
+        %tmp.60 = self;
+        %tmp.61 = getv function %tmp.60 :drawHeartRate;
+        %tmp.63 = lgetv %dc;
+        invoke %tmp.60 %tmp.61(%tmp.63);
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_17_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_53_4_if_end:
 C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_33_38_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 55; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 61; ]
     function drawOutterCircle(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_55_46_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 56 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_61_46_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 62 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setPenWidth;
         %tmp.3 = 2;
         invoke %tmp.1 %tmp.2(%tmp.3);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 57 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 63 4 ]
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :drawCircle;
         %tmp.7 = getv ? :screenWidth;
@@ -178,26 +182,26 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.18 = 1;
         %tmp.19 = sub %tmp.17 %tmp.18;
         invoke %tmp.4 %tmp.5(%tmp.9, %tmp.13, %tmp.19);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 58 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 64 4 ]
         %tmp.20 = lgetv %dc;
         %tmp.21 = getv function %tmp.20 :setPenWidth;
         %tmp.22 = 1;
         invoke %tmp.20 %tmp.21(%tmp.22);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_55_46_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_61_46_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 61; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 67; ]
     function screenSaver(dc as Dc, active as Boolean) {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_61_52_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 62 4 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_4_if_stmt:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_67_52_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 68 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_4_if_stmt:
         %tmp.2 = lgetv %active;
         %tmp.3 = true;
         %tmp.4 = eq %tmp.2 %tmp.3;
-        bf %tmp.4 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_4_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 63 6 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_stop" ]
+        bf %tmp.4 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_4_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 69 6 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_stop" ]
         %colors.1 = local;
         %tmp.5 = newa 5;
         %tmp.6 = getm $.Toybox.Graphics;
@@ -221,28 +225,28 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.24 = dup %tmp.21;
         %tmp.25 = aputv %tmp.24 4 %tmp.23;
         lputv %colors.1 %tmp.25;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 70 6 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 77 6 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_stop" ]
         %textColor.2 = local;
         %tmp.27 = lgetv %colors.1;
         %tmp.29 = getv ? :clockTime;
-        %tmp.30 = getv %tmp.29 :min;
+        %tmp.30 = getv %tmp.29 :hour;
         %tmp.31 = 5;
         %tmp.32 = mod %tmp.30 %tmp.31;
         %tmp.33 = agetv %tmp.27 %tmp.32;
         lputv %textColor.2 %tmp.33;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 72 6 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_stmt:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 79 6 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_stmt:
         %tmp.35 = getv ? :clockTime;
         %tmp.36 = getv %tmp.35 :min;
-        %tmp.37 = 20;
+        %tmp.37 = 30;
         %tmp.38 = mod %tmp.36 %tmp.37;
         %tmp.39 = 0;
         %tmp.40 = eq %tmp.38 %tmp.39;
-        bf %tmp.40 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_false;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_35_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 73 8 ]
+        bf %tmp.40 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_false;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_35_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 80 8 ]
         %tmp.41 = lgetv %dc;
         %tmp.42 = getv function %tmp.41 :setColor;
         %tmp.43 = getm $.Toybox.Graphics;
@@ -250,7 +254,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.45 = getm $.Toybox.Graphics;
         %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
         invoke %tmp.41 %tmp.42(%tmp.44, %tmp.46);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 74 8 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 81 8 ]
         %tmp.47 = lgetv %dc;
         %tmp.48 = getv function %tmp.47 :fillCircle;
         %tmp.50 = getv ? :screenWidth;
@@ -263,7 +267,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.59 = 2;
         %tmp.60 = div %tmp.58 %tmp.59;
         invoke %tmp.47 %tmp.48(%tmp.52, %tmp.56, %tmp.60);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 75 8 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 82 8 ]
         %tmp.61 = lgetv %dc;
         %tmp.62 = getv function %tmp.61 :setColor;
         %tmp.63 = getm $.Toybox.Graphics;
@@ -271,28 +275,28 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.65 = getm $.Toybox.Graphics;
         %tmp.66 = getv %tmp.65 :COLOR_TRANSPARENT;
         invoke %tmp.61 %tmp.62(%tmp.64, %tmp.66);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_35_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_false:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_76_13_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 77 8 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_35_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_false:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_83_13_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 84 8 ]
         %tmp.67 = lgetv %dc;
         %tmp.68 = getv function %tmp.67 :setColor;
         %tmp.70 = lgetv %textColor.2;
         %tmp.71 = getm $.Toybox.Graphics;
         %tmp.72 = getv %tmp.71 :COLOR_TRANSPARENT;
         invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_76_13_stop:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_72_6_if_end:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_24_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_62_4_if_end:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_61_52_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_83_13_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_79_6_if_end:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_24_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_68_4_if_end:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_67_52_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 82; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 89; ]
     function drawTopText(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_82_41_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 83 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_89_41_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 90 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :drawText;
         %tmp.4 = getv ? :screenWidth;
@@ -310,12 +314,12 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_VCENTER;
         %tmp.18 = bitor %tmp.15 %tmp.17;
         invoke %tmp.1 %tmp.2(%tmp.6, %tmp.10, %tmp.12, %tmp.13, %tmp.18);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_82_41_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_89_41_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 93; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 100; ]
     function drawBottomText(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_93_44_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 94 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_100_44_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 101 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :drawText;
         %tmp.4 = getv ? :screenWidth;
@@ -333,27 +337,27 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.17 = getv %tmp.16 :TEXT_JUSTIFY_VCENTER;
         %tmp.18 = bitor %tmp.15 %tmp.17;
         invoke %tmp.1 %tmp.2(%tmp.6, %tmp.10, %tmp.12, %tmp.13, %tmp.18);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_93_44_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_100_44_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 103; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 110; ]
     function drawHourMinute(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 105 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 112 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_stop" ]
         %HMx.1 = local;
         %tmp.2 = getv ? :screenWidth;
         %tmp.3 = 0.5;
         %tmp.4 = mul %tmp.2 %tmp.3;
         lputv %HMx.1 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 106 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 113 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_stop" ]
         %HMy.2 = local;
         %tmp.6 = getv ? :screenHeight;
         %tmp.7 = 0.52;
         %tmp.8 = mul %tmp.6 %tmp.7;
         lputv %HMy.2 %tmp.8;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 109 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 116 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_stop" ]
         %HMstr.3 = local;
         %tmp.9 = getm $.Toybox.Lang;
         %tmp.10 = getv function %tmp.9 :format;
@@ -375,7 +379,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.28 = aputv %tmp.27 1 %tmp.26;
         %tmp.29 = invoke %tmp.9 %tmp.10(%tmp.11, %tmp.28);
         lputv %HMstr.3 %tmp.29;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 115 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 122 4 ]
         %tmp.30 = lgetv %dc;
         %tmp.31 = getv function %tmp.30 :drawText;
         %tmp.33 = lgetv %HMx.1;
@@ -389,12 +393,12 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.43 = getv %tmp.42 :TEXT_JUSTIFY_VCENTER;
         %tmp.44 = bitor %tmp.41 %tmp.43;
         invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35, %tmp.37, %tmp.39, %tmp.44);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_103_44_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_110_44_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 124; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 131; ]
     function drawSec(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_124_37_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 125 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_131_37_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 132 4 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :drawText;
         %tmp.4 = getv ? :screenWidth;
@@ -416,27 +420,27 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.22 = getv %tmp.21 :TEXT_JUSTIFY_VCENTER;
         %tmp.23 = bitor %tmp.20 %tmp.22;
         invoke %tmp.1 %tmp.2(%tmp.6, %tmp.10, %tmp.12, %tmp.18, %tmp.23);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_124_37_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_131_37_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 134; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 141; ]
     function drawDate(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 136 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 143 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_stop" ]
         %datex.1 = local;
         %tmp.2 = getv ? :screenWidth;
         %tmp.3 = 0.5;
         %tmp.4 = mul %tmp.2 %tmp.3;
         lputv %datex.1 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 137 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 144 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_stop" ]
         %datey.2 = local;
         %tmp.6 = getv ? :screenHeight;
         %tmp.7 = 0.22;
         %tmp.8 = mul %tmp.6 %tmp.7;
         lputv %datey.2 %tmp.8;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 139 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 146 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_stop" ]
         %dateStr.3 = local;
         %tmp.10 = getv ? :clockTime;
         %tmp.11 = getv %tmp.10 :day;
@@ -497,7 +501,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
         %tmp.69 = add %tmp.62 %tmp.68;
         lputv %dateStr.3 %tmp.69;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 161 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 168 4 ]
         %tmp.70 = lgetv %dc;
         %tmp.71 = getv function %tmp.70 :drawText;
         %tmp.73 = lgetv %datex.1;
@@ -511,27 +515,27 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.83 = getv %tmp.82 :TEXT_JUSTIFY_VCENTER;
         %tmp.84 = bitor %tmp.81 %tmp.83;
         invoke %tmp.70 %tmp.71(%tmp.73, %tmp.75, %tmp.77, %tmp.79, %tmp.84);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_134_38_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_141_38_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 170; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 177; ]
     function drawWeekDay(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 172 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 179 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_stop" ]
         %weekDayx.1 = local;
         %tmp.2 = getv ? :screenWidth;
         %tmp.3 = 0.5;
         %tmp.4 = mul %tmp.2 %tmp.3;
         lputv %weekDayx.1 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 173 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 180 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_stop" ]
         %weekDayy.2 = local;
         %tmp.6 = getv ? :screenHeight;
         %tmp.7 = 0.34;
         %tmp.8 = mul %tmp.6 %tmp.7;
         lputv %weekDayy.2 %tmp.8;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 176 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 183 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_stop" ]
         %weekDaystr.3 = local;
         %tmp.9 = newa 7;
         %tmp.10 = "DOMINGO";
@@ -561,7 +565,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.35 = sub %tmp.33 %tmp.34;
         %tmp.36 = agetv %tmp.30 %tmp.35;
         lputv %weekDaystr.3 %tmp.36;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 187 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 194 4 ]
         %tmp.37 = lgetv %dc;
         %tmp.38 = getv function %tmp.37 :drawText;
         %tmp.40 = lgetv %weekDayx.1;
@@ -575,35 +579,35 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_VCENTER;
         %tmp.51 = bitor %tmp.48 %tmp.50;
         invoke %tmp.37 %tmp.38(%tmp.40, %tmp.42, %tmp.44, %tmp.46, %tmp.51);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_170_41_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_177_41_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 196; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 203; ]
     function drawWeather(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 199 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 206 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %tempx.1 = local;
         %tmp.2 = getv ? :screenWidth;
         %tmp.3 = 0.29;
         %tmp.4 = mul %tmp.2 %tmp.3;
         lputv %tempx.1 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 200 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 207 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %tempy.2 = local;
         %tmp.6 = getv ? :screenHeight;
         %tmp.7 = 0.7;
         %tmp.8 = mul %tmp.6 %tmp.7;
         lputv %tempy.2 %tmp.8;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 203 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 210 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %temperature.3 = local;
         %tmp.9 = getm $.Toybox.Weather;
         %tmp.10 = getv function %tmp.9 :getCurrentConditions;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = getv %tmp.11 :feelsLikeTemperature;
         lputv %temperature.3 %tmp.12;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 204 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 211 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %temperatureStr.4 = local;
         %tmp.13 = lgetv %temperature.3;
         %tmp.14 = getv function %tmp.13 :format;
@@ -612,7 +616,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.17 = "\u00B0C";
         %tmp.18 = add %tmp.16 %tmp.17;
         lputv %temperatureStr.4 %tmp.18;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 207 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 214 4 ]
         %tmp.19 = lgetv %dc;
         %tmp.20 = getv function %tmp.19 :drawText;
         %tmp.22 = lgetv %tempx.1;
@@ -626,28 +630,28 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.32 = getv %tmp.31 :TEXT_JUSTIFY_VCENTER;
         %tmp.33 = bitor %tmp.30 %tmp.32;
         invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24, %tmp.26, %tmp.28, %tmp.33);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 217 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 224 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %precipx.5 = local;
         %tmp.35 = getv ? :screenWidth;
         %tmp.36 = 0.7;
         %tmp.37 = mul %tmp.35 %tmp.36;
         lputv %precipx.5 %tmp.37;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 218 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 225 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %precipy.6 = local;
         %tmp.39 = lgetv %tempy.2;
         lputv %precipy.6 %tmp.39;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 221 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 228 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %precipitationChance.7 = local;
         %tmp.40 = getm $.Toybox.Weather;
         %tmp.41 = getv function %tmp.40 :getCurrentConditions;
         %tmp.42 = invoke %tmp.40 %tmp.41();
         %tmp.43 = getv %tmp.42 :precipitationChance;
         lputv %precipitationChance.7 %tmp.43;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 223 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 230 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop" ]
         %precipStr.8 = local;
         %tmp.44 = lgetv %precipitationChance.7;
         %tmp.45 = getv function %tmp.44 :format;
@@ -656,7 +660,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.48 = "%";
         %tmp.49 = add %tmp.47 %tmp.48;
         lputv %precipStr.8 %tmp.49;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 226 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 233 4 ]
         %tmp.50 = lgetv %dc;
         %tmp.51 = getv function %tmp.50 :drawText;
         %tmp.53 = lgetv %precipx.5;
@@ -670,39 +674,39 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.63 = getv %tmp.62 :TEXT_JUSTIFY_VCENTER;
         %tmp.64 = bitor %tmp.61 %tmp.63;
         invoke %tmp.50 %tmp.51(%tmp.53, %tmp.55, %tmp.57, %tmp.59, %tmp.64);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_196_41_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_203_41_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 235; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 242; ]
     function drawBattery(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 236 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 243 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batteryLvl.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getSystemStats;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :battery;
         lputv %batteryLvl.1 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 237 4 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_4_if_stmt:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 244 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_4_if_stmt:
         %tmp.6 = lgetv %batteryLvl.1;
         %tmp.7 = 20;
         %tmp.8 = lt %tmp.6 %tmp.7;
-        bf %tmp.8 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_4_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_25_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 239 6 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_stmt:
+        bf %tmp.8 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_4_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_25_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 246 6 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_stmt:
         %tmp.10 = getv ? :clockTime;
         %tmp.11 = getv %tmp.10 :min;
         %tmp.12 = 20;
         %tmp.13 = mod %tmp.11 %tmp.12;
         %tmp.14 = 0;
         %tmp.15 = eq %tmp.13 %tmp.14;
-        bf %tmp.15 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_false;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_35_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 240 8 ]
+        bf %tmp.15 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_false;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_35_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 247 8 ]
         %tmp.16 = lgetv %dc;
         %tmp.17 = getv function %tmp.16 :setColor;
         %tmp.18 = getm $.Toybox.Graphics;
@@ -710,11 +714,11 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.20 = getm $.Toybox.Graphics;
         %tmp.21 = getv %tmp.20 :COLOR_TRANSPARENT;
         invoke %tmp.16 %tmp.17(%tmp.19, %tmp.21);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_35_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_false:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_241_13_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 242 8 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_35_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_false:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_248_13_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 249 8 ]
         %tmp.22 = lgetv %dc;
         %tmp.23 = getv function %tmp.22 :setColor;
         %tmp.24 = getm $.Toybox.Graphics;
@@ -722,52 +726,52 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.26 = getm $.Toybox.Graphics;
         %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
         invoke %tmp.22 %tmp.23(%tmp.25, %tmp.27);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_241_13_stop:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_239_6_if_end:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 244 6 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_248_13_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_246_6_if_end:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 251 6 ]
         %tmp.28 = lgetv %dc;
         %tmp.29 = getv function %tmp.28 :clear;
         invoke %tmp.28 %tmp.29();
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_25_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_237_4_if_end:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 248 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_25_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_244_4_if_end:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 255 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batx.2 = local;
         %tmp.31 = getv ? :screenWidth;
         %tmp.32 = 0.5;
         %tmp.33 = mul %tmp.31 %tmp.32;
         lputv %batx.2 %tmp.33;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 249 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 256 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %baty.3 = local;
         %tmp.35 = getv ? :screenHeight;
         %tmp.36 = 0.8;
         %tmp.37 = mul %tmp.35 %tmp.36;
         lputv %baty.3 %tmp.37;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 250 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 257 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batIconWid.4 = local;
         %tmp.39 = getv ? :screenWidth;
         %tmp.40 = 0.1;
         %tmp.41 = mul %tmp.39 %tmp.40;
         lputv %batIconWid.4 %tmp.41;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 251 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 258 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batIconHei.5 = local;
         %tmp.43 = lgetv %batIconWid.4;
         %tmp.44 = 0.57;
         %tmp.45 = mul %tmp.43 %tmp.44;
         lputv %batIconHei.5 %tmp.45;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 253 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 260 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batTipx.6 = local;
         %tmp.47 = lgetv %batx.2;
         %tmp.49 = lgetv %batIconWid.4;
         %tmp.50 = add %tmp.47 %tmp.49;
         lputv %batTipx.6 %tmp.50;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 254 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 261 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %batTipy.7 = local;
         %tmp.52 = lgetv %baty.3;
         %tmp.54 = lgetv %batIconHei.5;
@@ -777,8 +781,8 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.58 = div %tmp.56 %tmp.57;
         %tmp.59 = add %tmp.52 %tmp.58;
         lputv %batTipy.7 %tmp.59;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 256 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 263 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %textx.8 = local;
         %tmp.61 = lgetv %batx.2;
         %tmp.63 = lgetv %batIconWid.4;
@@ -786,8 +790,8 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.65 = mul %tmp.63 %tmp.64;
         %tmp.66 = sub %tmp.61 %tmp.65;
         lputv %textx.8 %tmp.66;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 257 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 264 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop" ]
         %texty.9 = local;
         %tmp.68 = lgetv %baty.3;
         %tmp.70 = lgetv %batIconHei.5;
@@ -795,7 +799,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.72 = mul %tmp.70 %tmp.71;
         %tmp.73 = add %tmp.68 %tmp.72;
         lputv %texty.9 %tmp.73;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 259 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 266 4 ]
         %tmp.74 = lgetv %dc;
         %tmp.75 = getv function %tmp.74 :drawText;
         %tmp.77 = lgetv %textx.8;
@@ -814,7 +818,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.91 = getv %tmp.90 :TEXT_JUSTIFY_CENTER;
         %tmp.92 = bitor %tmp.89 %tmp.91;
         invoke %tmp.74 %tmp.75(%tmp.77, %tmp.79, %tmp.81, %tmp.87, %tmp.92);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 267 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 274 4 ]
         %tmp.93 = lgetv %dc;
         %tmp.94 = getv function %tmp.93 :drawRoundedRectangle;
         %tmp.96 = lgetv %batx.2;
@@ -823,7 +827,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.102 = lgetv %batIconHei.5;
         %tmp.103 = 2;
         invoke %tmp.93 %tmp.94(%tmp.96, %tmp.98, %tmp.100, %tmp.102, %tmp.103);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 269 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 276 4 ]
         %tmp.104 = lgetv %dc;
         %tmp.105 = getv function %tmp.104 :fillRectangle;
         %tmp.107 = lgetv %batTipx.6;
@@ -835,7 +839,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.116 = 3;
         %tmp.117 = div %tmp.115 %tmp.116;
         invoke %tmp.104 %tmp.105(%tmp.107, %tmp.109, %tmp.113, %tmp.117);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 271 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 278 4 ]
         %tmp.118 = lgetv %dc;
         %tmp.119 = getv function %tmp.118 :fillRoundedRectangle;
         %tmp.121 = lgetv %batx.2;
@@ -848,72 +852,72 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.132 = lgetv %batIconHei.5;
         %tmp.133 = 2;
         invoke %tmp.118 %tmp.119(%tmp.121, %tmp.123, %tmp.130, %tmp.132, %tmp.133);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_235_41_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_242_41_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 280; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 287; ]
     function drawHeartRate(dc as Dc) as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 281 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 288 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_stop" ]
         %activityInfo.1 = local;
         %tmp.1 = getm $.Toybox.Activity;
         %tmp.2 = getv function %tmp.1 :getActivityInfo;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %activityInfo.1 %tmp.3;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 282 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 289 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_stop" ]
         %heartRateStr.2 = local;
         %tmp.4 = "--";
         lputv %heartRateStr.2 %tmp.4;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 283 4 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_4_if_stmt:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 290 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_4_if_stmt:
         %tmp.6 = lgetv %activityInfo.1;
         %tmp.7 = null;
         %tmp.8 = ne %tmp.6 %tmp.7;
-        bf %tmp.8 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_4_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_30_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 284 6 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_30_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_30_stop" ]
+        bf %tmp.8 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_4_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_30_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 291 6 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_30_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_30_stop" ]
         %heartRate.3 = local;
         %tmp.9 = getm $.Toybox.Activity;
         %tmp.10 = getv function %tmp.9 :getActivityInfo;
         %tmp.11 = invoke %tmp.9 %tmp.10();
         %tmp.12 = getv %tmp.11 :currentHeartRate;
         lputv %heartRate.3 %tmp.12;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 285 6 ]
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_6_if_stmt:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 292 6 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_6_if_stmt:
         %tmp.14 = lgetv %heartRate.3;
-        bf %tmp.14 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_6_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_6_if_true:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_21_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 286 8 ]
+        bf %tmp.14 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_6_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_6_if_true:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_21_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 293 8 ]
         %tmp.15 = lgetv %heartRate.3;
         %tmp.16 = getv function %tmp.15 :format;
         %tmp.17 = "%d";
         %tmp.18 = invoke %tmp.15 %tmp.16(%tmp.17);
         lputv %heartRateStr.2 %tmp.18;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_21_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_6_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_285_6_if_end:
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_30_stop:
-        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_4_if_end;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_283_4_if_end:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 291 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_stop" ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_21_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_6_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_292_6_if_end:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_30_stop:
+        goto @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_4_if_end;
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_290_4_if_end:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 298 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_stop" ]
         %heartx.4 = local;
         %tmp.20 = getv ? :screenWidth;
         %tmp.21 = 0.5;
         %tmp.22 = mul %tmp.20 %tmp.21;
         lputv %heartx.4 %tmp.22;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 292 4 ]
-        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_stop" ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 299 4 ]
+        [ "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_start" "C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_stop" ]
         %hearty.5 = local;
         %tmp.24 = getv ? :screenHeight;
         %tmp.25 = 0.65;
         %tmp.26 = mul %tmp.24 %tmp.25;
         lputv %hearty.5 %tmp.26;
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 293 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 300 4 ]
         %tmp.27 = lgetv %dc;
         %tmp.28 = getv function %tmp.27 :setColor;
         %tmp.29 = getm $.Toybox.Graphics;
@@ -921,7 +925,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.31 = getm $.Toybox.Graphics;
         %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
         invoke %tmp.27 %tmp.28(%tmp.30, %tmp.32);
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 294 4 ]
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 301 4 ]
         %tmp.33 = lgetv %dc;
         %tmp.34 = getv function %tmp.33 :drawText;
         %tmp.36 = lgetv %heartx.4;
@@ -932,26 +936,26 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.43 = getm $.Toybox.Graphics;
         %tmp.44 = getv %tmp.43 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.33 %tmp.34(%tmp.36, %tmp.38, %tmp.40, %tmp.42, %tmp.44);
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_280_43_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_287_43_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 306; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 313; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 309; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 316; ]
     function onExitSleep() as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_309_33_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 310 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_316_33_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 317 4 ]
         %tmp.1 = true;
         putv self :isAwake %tmp.1;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_309_33_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_316_33_stop:
     }
-    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 314; ]
+    [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 321; ]
     function onEnterSleep() as Void {
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_314_34_start:
-[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 315 4 ]
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_321_34_start:
+[ "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc" 322 4 ]
         %tmp.1 = false;
         putv self :isAwake %tmp.1;
-C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_314_34_stop:
+C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_321_34_stop:
     }
 }
 [ @file = "C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\source\myFirstWatchFaceView.mc"; @line = 1; ]
