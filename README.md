@@ -30,7 +30,7 @@ Primary device: Forerunner 245 Music
 
 ### Version 0.9.1
 
-- App crashes when temperature is not available (fix being tested)
+- App crashes when weather info is not available (fix being tested)
 - Fixed text width of:
   - battery,
   - heart rate,
