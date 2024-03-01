@@ -206,12 +206,16 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     // get the weather info
     var weather = Weather.getCurrentConditions();
     var temperature = null;
+    var feelsLike = null;
 
     // str
     var temperatureStr = "--";
     if (weather != null) {
-      temperature = weather.feelsLikeTemperature;
-      if (temperature != null) {
+      temperature = weather.temperature;
+      feelsLike = weather.feelsLikeTemperature;
+      if (feelsLike != null) {
+        temperatureStr = feelsLike.format("%3d") + "\u00B0C";
+      } else if (temperature != null) {
         temperatureStr = temperature.format("%3d") + "\u00B0C";
       }
     }
@@ -253,7 +257,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var batteryLvl = System.getSystemStats().battery;
     if (batteryLvl < 20) {
       // Screensaving
-      if (clockTime.min % 20 == 0) {
+      if (clockTime.min % 30 == 0) {
         dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_TRANSPARENT);
       } else {
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
@@ -262,7 +266,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     }
 
     // set the coords and size
-    var batx = screenWidth * 0.5;
+    var batx = screenWidth * 0.52;
     var baty = screenHeight * 0.8;
     var batIconWid = screenWidth * 0.1;
     var batIconHei = batIconWid * 0.57;
