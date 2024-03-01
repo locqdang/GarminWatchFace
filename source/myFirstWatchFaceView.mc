@@ -54,8 +54,6 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       drawSec(dc);
       drawHeartRate(dc);
     }
-
-    //
   }
 
   function drawOutterCircle(dc as Dc) as Void {
@@ -91,8 +89,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       screenWidth / 2,
       screenHeight * 0.1,
       Graphics.FONT_SYSTEM_TINY,
-      // "loqui\u00F1o",
-      "deep breath",
+      "breathe!",
       Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
     );
   }
@@ -114,7 +111,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
 
     // Buil HMstr
     var HMstr = Lang.format("$1$:$2$", [
-      clockTime.hour.format("%d"),
+      clockTime.hour.format("%2d"),
       clockTime.min.format("%02d"),
     ]);
 
@@ -142,11 +139,11 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     //set the coords
     var datex = screenWidth * 0.5;
     var datey = screenHeight * 0.22;
+
     // Build datestr
     var dateStr =
       clockTime.day.format("%02d") +
       " " +
-      //clockTime.month.format("%02d") + "-" +
       [
         "ENE",
         "FEB",
@@ -207,9 +204,11 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var tempy = screenHeight * 0.7;
 
     // str
+    var temperatureStr = "--";
     var temperature = Weather.getCurrentConditions().feelsLikeTemperature;
-    var temperatureStr = temperature.format("%d") + "\u00B0C";
-
+    if (temperature != null) {
+      temperatureStr = temperature.format("%3d") + "\u00B0C";
+    }
     // Draw temperature
     dc.drawText(
       tempx,
@@ -227,7 +226,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     // str
     var precipitationChance =
       Weather.getCurrentConditions().precipitationChance;
-    var precipStr = precipitationChance.format("%d") + "%";
+    var precipStr = precipitationChance.format("%3d") + "%";
 
     // draw precip
     dc.drawText(
@@ -260,14 +259,15 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var batTipx = batx + batIconWid;
     var batTipy = baty + (batIconHei * 2) / 6;
 
-    var textx = batx - batIconWid * 0.8;
+    var textx = batx - batIconWid;
     var texty = baty + batIconHei * 0.4;
+
     // Draw text
     dc.drawText(
       textx,
       texty,
       Graphics.FONT_TINY,
-      batteryLvl.format("%d") + "%",
+      batteryLvl.format("%3d") + "%",
       Graphics.TEXT_JUSTIFY_VCENTER | Graphics.TEXT_JUSTIFY_CENTER
     );
     // draw battery
@@ -289,8 +289,8 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var heartRateStr = "--";
     if (activityInfo != null) {
       var heartRate = Activity.getActivityInfo().currentHeartRate;
-      if (heartRate) {
-        heartRateStr = heartRate.format("%d");
+      if (heartRate != null) {
+        heartRateStr = heartRate.format("%3d");
       }
     }
 
