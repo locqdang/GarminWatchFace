@@ -335,5 +335,6 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
   // Terminate any active timers and prepare for slow updates.
   function onEnterSleep() as Void {
     isAwake = false;
+    WatchUi.requestUpdate(); // testing to see if this fixed the exitSleep issue
   }
 }

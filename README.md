@@ -4,11 +4,11 @@ This my first Garmin watch face.
 Built with SDK Connect IQ 6.4.2
 Primary device: Forerunner 245 Music
 
-![watchFacePhto](./myFirstWatchFace.png)
+![watchFacePhoto](./myFirstWatchFace.png)
 
 ## Features
 
-- Screensaving:
+- Screensaver:
   - Chameleon color: auto-changing color every hour
   - Inversion color: auto-inverting the colors for one minute every 30 minutes
 - Spanish months, days of the week
