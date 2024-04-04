@@ -98,7 +98,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
   }
 
   function drawAmPm(dc as Dc) as Void {
-    var amPm = clockTime.hour > 12 ? "PM" : "AM";
+    var amPm = clockTime.hour >= 12 ? "PM" : "AM";
     dc.drawText(
       screenWidth * 0.08,
       screenHeight * 0.54,

@@ -343,7 +343,7 @@ C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceV
         %tmp.2 = getv ? :clockTime;
         %tmp.3 = getv %tmp.2 :hour;
         %tmp.4 = 12;
-        %tmp.5 = gt %tmp.3 %tmp.4;
+        %tmp.5 = gte %tmp.3 %tmp.4;
         bf %tmp.5 @C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_101_15_false;
 C_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_source_myFirstWatchFaceView_mc_101_15_true:
         %tmp.6 = "PM";
