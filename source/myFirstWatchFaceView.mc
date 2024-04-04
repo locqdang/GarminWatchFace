@@ -43,6 +43,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     drawTopText(dc);
     drawBottomText(dc);
     drawHourMinute(dc);
+    drawAmPm(dc);
     drawDate(dc);
     drawWeekDay(dc);
     drawWeather(dc);
@@ -94,6 +95,17 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     );
   }
 
+  function drawAmPm(dc as Dc) as Void {
+    var amPm = clockTime.hour > 12 ? "PM" : "AM";
+    dc.drawText(
+      screenWidth * 0.08,
+      screenHeight * 0.54,
+      Graphics.FONT_SYSTEM_TINY,
+      amPm,
+      Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER
+    );
+  }
+
   function drawBottomText(dc as Dc) as Void {
     dc.drawText(
       screenWidth * 0.5,
@@ -109,9 +121,15 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     var HMx = screenWidth * 0.5;
     var HMy = screenHeight * 0.52;
 
+    // set the 12-hour hour
+    var hour = clockTime.hour > 12 ? clockTime.hour - 12 : clockTime.hour;
+    if (hour == 0) {
+      hour = 12;
+    }
+
     // Buil HMstr
     var HMstr = Lang.format("$1$:$2$", [
-      clockTime.hour.format("%2d"),
+      hour.format("%2d"),
       clockTime.min.format("%02d"),
     ]);
 
@@ -291,10 +309,10 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
     dc.fillRectangle(batTipx, batTipy, batIconWid / 12, batIconHei / 3);
     // Fill the battery
     dc.fillRoundedRectangle(
-      batx,
-      baty,
-      (batIconWid * batteryLvl) / 100,
-      batIconHei,
+      batx + 1.8,
+      baty + 2,
+      ((batIconWid * batteryLvl) / 100) * 0.85,
+      batIconHei * 0.7,
       2
     );
   }
