@@ -19,47 +19,29 @@ module Rez {
         <init> {
         }
         [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
-        var LauncherIcon as Symbol;
+        var LauncherIcon as ResourceId;
     }
     [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 12; ]
-    module Fonts {
+    module Layouts {
         [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 12; ]
         <init> {
         }
-    }
-    [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 15; ]
-    module JsonData {
-        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 15; ]
-        <init> {
+        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 13; ]
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+c_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_readyForSideLoad_gen_006_B3077_00_source_Rez_mcgen_13_73_15_8_start:
+[ "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen" 14 12 ]
+            %tmp.1 = newa 0 Array<WatchUi.Drawable>;
+            ret %tmp.1;
+c_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_readyForSideLoad_gen_006_B3077_00_source_Rez_mcgen_13_73_15_8_stop:
         }
     }
     [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 18; ]
-    module Layouts {
+    module Strings {
         [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 19; ]
-        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-c_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_readyForSideLoad_gen_006_B3077_00_source_Rez_mcgen_19_73_start:
-[ "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen" 20 12 ]
-            %tmp.1 = newa Array<WatchUi.Drawable> 0;
-            ret %tmp.1;
-c_Users_locqd_OneDrive___Seneca_Garmin_myFirstWatchFace_readyForSideLoad_gen_006_B3077_00_source_Rez_mcgen_19_73_stop:
-        }
-    }
-    [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 24; ]
-    module Menus {
-        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 24; ]
-        <init> {
-        }
-    }
-    [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 27; ]
-    module Strings {
-        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 27; ]
-        <init> {
-        }
-        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 28; @position = 27; initialized = true; ]
-        var AppName as Symbol;
+        [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 19; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
     }
 }
 [ @file = "c:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\readyForSideLoad\gen\006-B3077-00\source\Rez.mcgen"; @line = 1; ]

@@ -6,14 +6,8 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var LauncherIcon as Symbol;
+        (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
-
-    module Fonts {
-    } // Fonts
-
-    module JsonData {
-    } // JsonData
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
@@ -21,10 +15,7 @@ module Rez {
         }
     } // Layouts
 
-    module Menus {
-    } // Menus
-
     module Strings {
-        (:initialized) var AppName as Symbol;
+        (:initialized) var AppName as ResourceId;
     } // Strings
 } // Rez

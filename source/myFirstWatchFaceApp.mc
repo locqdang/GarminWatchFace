@@ -14,8 +14,13 @@ class myFirstWatchFaceApp extends Application.AppBase {
   function onStop(state as Dictionary?) as Void {}
 
   // Return the initial view of your application here
-  function getInitialView() as Array<Views or InputDelegates>? {
-    return [new myFirstWatchFaceView()] as Array<Views or InputDelegates>;
+  //sdk 6.4
+  // function getInitialView() as Array<Views or InputDelegates>? {
+  //   return [new myFirstWatchFaceView()] as Array<Views or InputDelegates>;
+  // }
+  //sdk 7.1
+  function getInitialView() as [Views] or [Views, InputDelegates] {
+    return [new myFirstWatchFaceView()];
   }
 }
 

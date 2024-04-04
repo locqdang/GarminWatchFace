@@ -2,161 +2,159 @@
 <debugInfo>
 <manifest filename="C:\Users\locqd\OneDrive - Seneca\Garmin\myFirstWatchFace\manifest.xml"/>
 <pcToLineNum>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="1" lineNum="22" parent="globals" pc="268435460" symbol="getApp"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="1" lineNum="23" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="1" lineNum="27" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="1" lineNum="28" parent="globals" pc="268435470" symbol="getApp"/>
 <entry filename="c:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435486" symbol="&lt;init&gt;"/>
 <entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="3" lineNum="9" parent="globals/myFirstWatchFaceView" pc="268435510" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="4" lineNum="353" parent="globals/myFirstWatchFaceView" pc="268435529" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="4" lineNum="354" parent="globals/myFirstWatchFaceView" pc="268435531" symbol="onExitSleep"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="123" parent="globals/myFirstWatchFaceView" pc="268435542" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="125" parent="globals/myFirstWatchFaceView" pc="268435546" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="126" parent="globals/myFirstWatchFaceView" pc="268435562" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="129" parent="globals/myFirstWatchFaceView" pc="268435578" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="130" parent="globals/myFirstWatchFaceView" pc="268435640" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="131" parent="globals/myFirstWatchFaceView" pc="268435651" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="135" parent="globals/myFirstWatchFaceView" pc="268435661" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="141" parent="globals/myFirstWatchFaceView" pc="268435749" symbol="drawHourMinute"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="28" parent="globals/myFirstWatchFaceView" pc="268435778" symbol="onShow"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="29" parent="globals/myFirstWatchFaceView" pc="268435780" symbol="onShow"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="7" lineNum="102" parent="globals/myFirstWatchFaceView" pc="268435791" symbol="drawAmPm"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="7" lineNum="103" parent="globals/myFirstWatchFaceView" pc="268435795" symbol="drawAmPm"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="7" lineNum="104" parent="globals/myFirstWatchFaceView" pc="268435833" symbol="drawAmPm"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="19" parent="globals/myFirstWatchFaceView" pc="268435886" symbol="onLayout"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="20" parent="globals/myFirstWatchFaceView" pc="268435888" symbol="onLayout"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="21" parent="globals/myFirstWatchFaceView" pc="268435929" symbol="onLayout"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="22" parent="globals/myFirstWatchFaceView" pc="268435948" symbol="onLayout"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="150" parent="globals/myFirstWatchFaceView" pc="268435968" symbol="drawSec"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="151" parent="globals/myFirstWatchFaceView" pc="268435970" symbol="drawSec"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="66" parent="globals/myFirstWatchFaceView" pc="268436049" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="67" parent="globals/myFirstWatchFaceView" pc="268436053" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="68" parent="globals/myFirstWatchFaceView" pc="268436061" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="77" parent="globals/myFirstWatchFaceView" pc="268436134" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="80" parent="globals/myFirstWatchFaceView" pc="268436211" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="82" parent="globals/myFirstWatchFaceView" pc="268436260" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="83" parent="globals/myFirstWatchFaceView" pc="268436289" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="84" parent="globals/myFirstWatchFaceView" pc="268436311" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="85" parent="globals/myFirstWatchFaceView" pc="268436365" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="87" parent="globals/myFirstWatchFaceView" pc="268436390" symbol="screenSaver"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="92" parent="globals/myFirstWatchFaceView" pc="268436413" symbol="drawTopText"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="93" parent="globals/myFirstWatchFaceView" pc="268436415" symbol="drawTopText"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="60" parent="globals/myFirstWatchFaceView" pc="268436471" symbol="drawOutterCircle"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="61" parent="globals/myFirstWatchFaceView" pc="268436473" symbol="drawOutterCircle"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="62" parent="globals/myFirstWatchFaceView" pc="268436490" symbol="drawOutterCircle"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="63" parent="globals/myFirstWatchFaceView" pc="268436550" symbol="drawOutterCircle"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="278" parent="globals/myFirstWatchFaceView" pc="268436568" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="279" parent="globals/myFirstWatchFaceView" pc="268436572" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="280" parent="globals/myFirstWatchFaceView" pc="268436595" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="282" parent="globals/myFirstWatchFaceView" pc="268436606" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="283" parent="globals/myFirstWatchFaceView" pc="268436635" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="285" parent="globals/myFirstWatchFaceView" pc="268436660" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="287" parent="globals/myFirstWatchFaceView" pc="268436682" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="291" parent="globals/myFirstWatchFaceView" pc="268436697" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="292" parent="globals/myFirstWatchFaceView" pc="268436713" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="293" parent="globals/myFirstWatchFaceView" pc="268436729" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="294" parent="globals/myFirstWatchFaceView" pc="268436745" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="296" parent="globals/myFirstWatchFaceView" pc="268436755" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="297" parent="globals/myFirstWatchFaceView" pc="268436762" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="299" parent="globals/myFirstWatchFaceView" pc="268436781" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="300" parent="globals/myFirstWatchFaceView" pc="268436788" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="303" parent="globals/myFirstWatchFaceView" pc="268436801" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="311" parent="globals/myFirstWatchFaceView" pc="268436849" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="313" parent="globals/myFirstWatchFaceView" pc="268436874" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="315" parent="globals/myFirstWatchFaceView" pc="268436906" symbol="drawBattery"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="358" parent="globals/myFirstWatchFaceView" pc="268436965" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="359" parent="globals/myFirstWatchFaceView" pc="268436967" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="360" parent="globals/myFirstWatchFaceView" pc="268436977" symbol="onEnterSleep"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="196" parent="globals/myFirstWatchFaceView" pc="268436994" symbol="drawWeekDay"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="198" parent="globals/myFirstWatchFaceView" pc="268436998" symbol="drawWeekDay"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="199" parent="globals/myFirstWatchFaceView" pc="268437014" symbol="drawWeekDay"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="202" parent="globals/myFirstWatchFaceView" pc="268437030" symbol="drawWeekDay"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="213" parent="globals/myFirstWatchFaceView" pc="268437150" symbol="drawWeekDay"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="222" parent="globals/myFirstWatchFaceView" pc="268437179" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="225" parent="globals/myFirstWatchFaceView" pc="268437183" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="226" parent="globals/myFirstWatchFaceView" pc="268437199" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="229" parent="globals/myFirstWatchFaceView" pc="268437215" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="230" parent="globals/myFirstWatchFaceView" pc="268437232" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="231" parent="globals/myFirstWatchFaceView" pc="268437235" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="234" parent="globals/myFirstWatchFaceView" pc="268437238" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="235" parent="globals/myFirstWatchFaceView" pc="268437245" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="236" parent="globals/myFirstWatchFaceView" pc="268437252" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="237" parent="globals/myFirstWatchFaceView" pc="268437262" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="238" parent="globals/myFirstWatchFaceView" pc="268437272" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="239" parent="globals/myFirstWatchFaceView" pc="268437279" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="240" parent="globals/myFirstWatchFaceView" pc="268437306" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="241" parent="globals/myFirstWatchFaceView" pc="268437313" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="245" parent="globals/myFirstWatchFaceView" pc="268437343" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="255" parent="globals/myFirstWatchFaceView" pc="268437371" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="256" parent="globals/myFirstWatchFaceView" pc="268437387" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="259" parent="globals/myFirstWatchFaceView" pc="268437391" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="260" parent="globals/myFirstWatchFaceView" pc="268437398" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="261" parent="globals/myFirstWatchFaceView" pc="268437401" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="262" parent="globals/myFirstWatchFaceView" pc="268437408" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="263" parent="globals/myFirstWatchFaceView" pc="268437418" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="264" parent="globals/myFirstWatchFaceView" pc="268437425" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="269" parent="globals/myFirstWatchFaceView" pc="268437455" symbol="drawWeather"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="14" parent="globals/myFirstWatchFaceView" pc="268437484" symbol="initialize"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="15" parent="globals/myFirstWatchFaceView" pc="268437486" symbol="initialize"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="324" parent="globals/myFirstWatchFaceView" pc="268437505" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="325" parent="globals/myFirstWatchFaceView" pc="268437509" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="326" parent="globals/myFirstWatchFaceView" pc="268437516" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="327" parent="globals/myFirstWatchFaceView" pc="268437533" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="328" parent="globals/myFirstWatchFaceView" pc="268437540" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="329" parent="globals/myFirstWatchFaceView" pc="268437550" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="330" parent="globals/myFirstWatchFaceView" pc="268437557" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="335" parent="globals/myFirstWatchFaceView" pc="268437581" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="336" parent="globals/myFirstWatchFaceView" pc="268437597" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="337" parent="globals/myFirstWatchFaceView" pc="268437613" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="338" parent="globals/myFirstWatchFaceView" pc="268437635" symbol="drawHeartRate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="33" parent="globals/myFirstWatchFaceView" pc="268437664" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="34" parent="globals/myFirstWatchFaceView" pc="268437666" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="36" parent="globals/myFirstWatchFaceView" pc="268437690" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="39" parent="globals/myFirstWatchFaceView" pc="268437733" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="40" parent="globals/myFirstWatchFaceView" pc="268437749" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="43" parent="globals/myFirstWatchFaceView" pc="268437761" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="44" parent="globals/myFirstWatchFaceView" pc="268437775" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="45" parent="globals/myFirstWatchFaceView" pc="268437789" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="46" parent="globals/myFirstWatchFaceView" pc="268437803" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="47" parent="globals/myFirstWatchFaceView" pc="268437817" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="48" parent="globals/myFirstWatchFaceView" pc="268437831" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="49" parent="globals/myFirstWatchFaceView" pc="268437845" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="50" parent="globals/myFirstWatchFaceView" pc="268437859" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="51" parent="globals/myFirstWatchFaceView" pc="268437873" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="54" parent="globals/myFirstWatchFaceView" pc="268437887" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="55" parent="globals/myFirstWatchFaceView" pc="268437898" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="20" lineNum="56" parent="globals/myFirstWatchFaceView" pc="268437912" symbol="onUpdate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="160" parent="globals/myFirstWatchFaceView" pc="268437930" symbol="drawDate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="162" parent="globals/myFirstWatchFaceView" pc="268437934" symbol="drawDate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="163" parent="globals/myFirstWatchFaceView" pc="268437950" symbol="drawDate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="166" parent="globals/myFirstWatchFaceView" pc="268437966" symbol="drawDate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="187" parent="globals/myFirstWatchFaceView" pc="268438221" symbol="drawDate"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="113" parent="globals/myFirstWatchFaceView" pc="268438250" symbol="drawBottomText"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="114" parent="globals/myFirstWatchFaceView" pc="268438252" symbol="drawBottomText"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="23" lineNum="5" parent="globals/myFirstWatchFaceApp" pc="268438308" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="4" lineNum="5" parent="globals/myFirstWatchFaceApp" pc="268435529" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="353" parent="globals/myFirstWatchFaceView" pc="268435548" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="5" lineNum="354" parent="globals/myFirstWatchFaceView" pc="268435550" symbol="onExitSleep"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="123" parent="globals/myFirstWatchFaceView" pc="268435561" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="125" parent="globals/myFirstWatchFaceView" pc="268435565" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="126" parent="globals/myFirstWatchFaceView" pc="268435581" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="129" parent="globals/myFirstWatchFaceView" pc="268435597" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="130" parent="globals/myFirstWatchFaceView" pc="268435659" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="131" parent="globals/myFirstWatchFaceView" pc="268435670" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="135" parent="globals/myFirstWatchFaceView" pc="268435680" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="6" lineNum="141" parent="globals/myFirstWatchFaceView" pc="268435768" symbol="drawHourMinute"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="7" lineNum="28" parent="globals/myFirstWatchFaceView" pc="268435797" symbol="onShow"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="7" lineNum="29" parent="globals/myFirstWatchFaceView" pc="268435799" symbol="onShow"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="102" parent="globals/myFirstWatchFaceView" pc="268435810" symbol="drawAmPm"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="103" parent="globals/myFirstWatchFaceView" pc="268435814" symbol="drawAmPm"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="8" lineNum="104" parent="globals/myFirstWatchFaceView" pc="268435852" symbol="drawAmPm"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="19" parent="globals/myFirstWatchFaceView" pc="268435905" symbol="onLayout"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="20" parent="globals/myFirstWatchFaceView" pc="268435907" symbol="onLayout"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="21" parent="globals/myFirstWatchFaceView" pc="268435948" symbol="onLayout"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="9" lineNum="22" parent="globals/myFirstWatchFaceView" pc="268435967" symbol="onLayout"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="150" parent="globals/myFirstWatchFaceView" pc="268435987" symbol="drawSec"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="10" lineNum="151" parent="globals/myFirstWatchFaceView" pc="268435989" symbol="drawSec"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="66" parent="globals/myFirstWatchFaceView" pc="268436068" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="67" parent="globals/myFirstWatchFaceView" pc="268436072" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="68" parent="globals/myFirstWatchFaceView" pc="268436080" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="77" parent="globals/myFirstWatchFaceView" pc="268436153" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="80" parent="globals/myFirstWatchFaceView" pc="268436230" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="82" parent="globals/myFirstWatchFaceView" pc="268436279" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="83" parent="globals/myFirstWatchFaceView" pc="268436308" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="84" parent="globals/myFirstWatchFaceView" pc="268436330" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="85" parent="globals/myFirstWatchFaceView" pc="268436384" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="11" lineNum="87" parent="globals/myFirstWatchFaceView" pc="268436409" symbol="screenSaver"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="92" parent="globals/myFirstWatchFaceView" pc="268436432" symbol="drawTopText"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="12" lineNum="93" parent="globals/myFirstWatchFaceView" pc="268436434" symbol="drawTopText"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="60" parent="globals/myFirstWatchFaceView" pc="268436490" symbol="drawOutterCircle"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="61" parent="globals/myFirstWatchFaceView" pc="268436492" symbol="drawOutterCircle"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="62" parent="globals/myFirstWatchFaceView" pc="268436509" symbol="drawOutterCircle"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="13" lineNum="63" parent="globals/myFirstWatchFaceView" pc="268436569" symbol="drawOutterCircle"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="278" parent="globals/myFirstWatchFaceView" pc="268436587" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="279" parent="globals/myFirstWatchFaceView" pc="268436591" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="280" parent="globals/myFirstWatchFaceView" pc="268436614" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="282" parent="globals/myFirstWatchFaceView" pc="268436625" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="283" parent="globals/myFirstWatchFaceView" pc="268436654" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="285" parent="globals/myFirstWatchFaceView" pc="268436679" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="287" parent="globals/myFirstWatchFaceView" pc="268436701" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="291" parent="globals/myFirstWatchFaceView" pc="268436716" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="292" parent="globals/myFirstWatchFaceView" pc="268436732" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="293" parent="globals/myFirstWatchFaceView" pc="268436748" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="294" parent="globals/myFirstWatchFaceView" pc="268436764" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="296" parent="globals/myFirstWatchFaceView" pc="268436774" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="297" parent="globals/myFirstWatchFaceView" pc="268436781" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="299" parent="globals/myFirstWatchFaceView" pc="268436800" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="300" parent="globals/myFirstWatchFaceView" pc="268436807" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="303" parent="globals/myFirstWatchFaceView" pc="268436820" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="311" parent="globals/myFirstWatchFaceView" pc="268436868" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="313" parent="globals/myFirstWatchFaceView" pc="268436893" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="14" lineNum="315" parent="globals/myFirstWatchFaceView" pc="268436925" symbol="drawBattery"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="358" parent="globals/myFirstWatchFaceView" pc="268436984" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="359" parent="globals/myFirstWatchFaceView" pc="268436986" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="15" lineNum="360" parent="globals/myFirstWatchFaceView" pc="268436996" symbol="onEnterSleep"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="196" parent="globals/myFirstWatchFaceView" pc="268437013" symbol="drawWeekDay"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="198" parent="globals/myFirstWatchFaceView" pc="268437017" symbol="drawWeekDay"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="199" parent="globals/myFirstWatchFaceView" pc="268437033" symbol="drawWeekDay"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="202" parent="globals/myFirstWatchFaceView" pc="268437049" symbol="drawWeekDay"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="16" lineNum="213" parent="globals/myFirstWatchFaceView" pc="268437169" symbol="drawWeekDay"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="222" parent="globals/myFirstWatchFaceView" pc="268437198" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="225" parent="globals/myFirstWatchFaceView" pc="268437202" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="226" parent="globals/myFirstWatchFaceView" pc="268437218" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="229" parent="globals/myFirstWatchFaceView" pc="268437234" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="230" parent="globals/myFirstWatchFaceView" pc="268437251" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="231" parent="globals/myFirstWatchFaceView" pc="268437254" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="234" parent="globals/myFirstWatchFaceView" pc="268437257" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="235" parent="globals/myFirstWatchFaceView" pc="268437264" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="236" parent="globals/myFirstWatchFaceView" pc="268437271" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="237" parent="globals/myFirstWatchFaceView" pc="268437281" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="238" parent="globals/myFirstWatchFaceView" pc="268437291" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="239" parent="globals/myFirstWatchFaceView" pc="268437298" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="240" parent="globals/myFirstWatchFaceView" pc="268437325" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="241" parent="globals/myFirstWatchFaceView" pc="268437332" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="245" parent="globals/myFirstWatchFaceView" pc="268437362" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="255" parent="globals/myFirstWatchFaceView" pc="268437390" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="256" parent="globals/myFirstWatchFaceView" pc="268437406" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="259" parent="globals/myFirstWatchFaceView" pc="268437410" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="260" parent="globals/myFirstWatchFaceView" pc="268437417" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="261" parent="globals/myFirstWatchFaceView" pc="268437420" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="262" parent="globals/myFirstWatchFaceView" pc="268437427" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="263" parent="globals/myFirstWatchFaceView" pc="268437437" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="264" parent="globals/myFirstWatchFaceView" pc="268437444" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="17" lineNum="269" parent="globals/myFirstWatchFaceView" pc="268437474" symbol="drawWeather"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="14" parent="globals/myFirstWatchFaceView" pc="268437503" symbol="initialize"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="18" lineNum="15" parent="globals/myFirstWatchFaceView" pc="268437505" symbol="initialize"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="324" parent="globals/myFirstWatchFaceView" pc="268437524" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="325" parent="globals/myFirstWatchFaceView" pc="268437528" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="326" parent="globals/myFirstWatchFaceView" pc="268437535" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="327" parent="globals/myFirstWatchFaceView" pc="268437552" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="328" parent="globals/myFirstWatchFaceView" pc="268437559" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="329" parent="globals/myFirstWatchFaceView" pc="268437569" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="330" parent="globals/myFirstWatchFaceView" pc="268437576" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="335" parent="globals/myFirstWatchFaceView" pc="268437600" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="336" parent="globals/myFirstWatchFaceView" pc="268437616" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="337" parent="globals/myFirstWatchFaceView" pc="268437632" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="19" lineNum="338" parent="globals/myFirstWatchFaceView" pc="268437654" symbol="drawHeartRate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="33" parent="globals/myFirstWatchFaceView" pc="268437683" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="34" parent="globals/myFirstWatchFaceView" pc="268437685" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="36" parent="globals/myFirstWatchFaceView" pc="268437709" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="39" parent="globals/myFirstWatchFaceView" pc="268437752" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="40" parent="globals/myFirstWatchFaceView" pc="268437768" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="43" parent="globals/myFirstWatchFaceView" pc="268437780" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="44" parent="globals/myFirstWatchFaceView" pc="268437794" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="45" parent="globals/myFirstWatchFaceView" pc="268437808" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="46" parent="globals/myFirstWatchFaceView" pc="268437822" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="47" parent="globals/myFirstWatchFaceView" pc="268437836" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="48" parent="globals/myFirstWatchFaceView" pc="268437850" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="49" parent="globals/myFirstWatchFaceView" pc="268437864" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="50" parent="globals/myFirstWatchFaceView" pc="268437878" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="51" parent="globals/myFirstWatchFaceView" pc="268437892" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="54" parent="globals/myFirstWatchFaceView" pc="268437906" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="55" parent="globals/myFirstWatchFaceView" pc="268437917" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="21" lineNum="56" parent="globals/myFirstWatchFaceView" pc="268437931" symbol="onUpdate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="160" parent="globals/myFirstWatchFaceView" pc="268437949" symbol="drawDate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="162" parent="globals/myFirstWatchFaceView" pc="268437953" symbol="drawDate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="163" parent="globals/myFirstWatchFaceView" pc="268437969" symbol="drawDate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="166" parent="globals/myFirstWatchFaceView" pc="268437985" symbol="drawDate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="22" lineNum="187" parent="globals/myFirstWatchFaceView" pc="268438240" symbol="drawDate"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="23" lineNum="113" parent="globals/myFirstWatchFaceView" pc="268438269" symbol="drawBottomText"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceView.mc" id="23" lineNum="114" parent="globals/myFirstWatchFaceView" pc="268438271" symbol="drawBottomText"/>
 <entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="24" lineNum="11" parent="globals/myFirstWatchFaceApp" pc="268438327" symbol="onStart"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="25" lineNum="17" parent="globals/myFirstWatchFaceApp" pc="268438330" symbol="getInitialView"/>
-<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="25" lineNum="18" parent="globals/myFirstWatchFaceApp" pc="268438332" symbol="getInitialView"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="25" lineNum="22" parent="globals/myFirstWatchFaceApp" pc="268438330" symbol="getInitialView"/>
+<entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="25" lineNum="23" parent="globals/myFirstWatchFaceApp" pc="268438332" symbol="getInitialView"/>
 <entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="26" lineNum="6" parent="globals/myFirstWatchFaceApp" pc="268438373" symbol="initialize"/>
 <entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="26" lineNum="7" parent="globals/myFirstWatchFaceApp" pc="268438375" symbol="initialize"/>
 <entry filename="C:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\source\\myFirstWatchFaceApp.mc" id="27" lineNum="14" parent="globals/myFirstWatchFaceApp" pc="268438394" symbol="onStop"/>
-<entry filename="c:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="28" lineNum="19" parent="globals/Rez/Layouts" pc="268438397" symbol="WatchFace"/>
-<entry filename="c:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="28" lineNum="20" parent="globals/Rez/Layouts" pc="268438407" symbol="WatchFace"/>
+<entry filename="c:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="28" lineNum="13" parent="globals/Rez/Layouts" pc="268438397" symbol="WatchFace"/>
+<entry filename="c:\\Users\\locqd\\OneDrive - Seneca\\Garmin\\myFirstWatchFace\\bin\\gen\\006-B3077-00\\source\\Rez.mcgen" id="28" lineNum="14" parent="globals/Rez/Layouts" pc="268438407" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="18" method="true" symbol="drawHeartRate"/>
+<entry id="14" method="true" symbol="drawHeartRate"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
-<entry id="24" method="true" symbol="drawWeekDay"/>
+<entry id="20" method="true" symbol="drawWeekDay"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry id="17" method="true" symbol="drawDate"/>
-<entry id="23" method="true" symbol="drawWeather"/>
-<entry id="7" module="true" symbol="globals/Rez/Menus"/>
-<entry id="9" object="true" symbol="myFirstWatchFaceApp"/>
+<entry id="13" method="true" symbol="drawDate"/>
+<entry id="19" method="true" symbol="drawWeather"/>
+<entry id="6" object="true" symbol="myFirstWatchFaceApp"/>
 <entry field="true" id="8389671" symbol="screenWidth"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry id="20" method="true" symbol="drawOutterCircle"/>
-<entry field="true" id="28" symbol="AppName"/>
-<entry id="8" module="true" symbol="globals/Rez/Strings"/>
-<entry id="8388772" module="true" object="true" symbol="Fonts"/>
-<entry field="true" id="25" symbol="isAwake"/>
+<entry id="16" method="true" symbol="drawOutterCircle"/>
+<entry field="true" id="24" symbol="AppName"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="21" symbol="isAwake"/>
 <entry id="8388631" module="true" symbol="Activity"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
@@ -164,113 +162,107 @@
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry id="8391489" module="true" symbol="Weather"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-<entry id="12" module="true" symbol="Menus"/>
 <entry id="8389275" method="true" symbol="getApp"/>
-<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
 <entry field="true" id="8389672" symbol="screenHeight"/>
-<entry id="15" method="true" symbol="drawBattery"/>
+<entry id="11" method="true" symbol="drawBattery"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="8389376" method="true" symbol="onEnterSleep"/>
-<entry id="26" method="true" symbol="screenSaver"/>
-<entry id="16" method="true" symbol="drawBottomText"/>
-<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="22" method="true" symbol="screenSaver"/>
+<entry id="12" method="true" symbol="drawBottomText"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry id="10" object="true" symbol="myFirstWatchFaceView"/>
-<entry id="19" method="true" symbol="drawHourMinute"/>
+<entry id="7" object="true" symbol="myFirstWatchFaceView"/>
+<entry id="15" method="true" symbol="drawHourMinute"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry id="21" method="true" symbol="drawSec"/>
+<entry id="17" method="true" symbol="drawSec"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry id="8390088" module="true" object="true" symbol="JsonData"/>
-<entry field="true" id="27" symbol="LauncherIcon"/>
-<entry field="true" id="13" symbol="clockTime"/>
+<entry field="true" id="23" symbol="LauncherIcon"/>
+<entry field="true" id="9" symbol="clockTime"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry id="22" method="true" symbol="drawTopText"/>
+<entry id="18" method="true" symbol="drawTopText"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="11" module="true" symbol="Layouts"/>
-<entry id="14" method="true" symbol="drawAmPm"/>
-<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8" module="true" symbol="Layouts"/>
+<entry id="10" method="true" symbol="drawAmPm"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435777" name="dc" stackId="1" startPc="268435542"/>
-<entry endPc="268435776" name="HMx" stackId="2" startPc="268435546"/>
-<entry endPc="268435776" name="HMy" stackId="3" startPc="268435546"/>
-<entry endPc="268435776" name="hour" stackId="4" startPc="268435546"/>
-<entry endPc="268435776" name="HMstr" stackId="5" startPc="268435546"/>
-<entry arg="true" endPc="268435885" name="dc" stackId="1" startPc="268435791"/>
-<entry endPc="268435884" name="amPm" stackId="2" startPc="268435795"/>
-<entry arg="true" endPc="268435967" name="dc" stackId="1" startPc="268435886"/>
-<entry arg="true" endPc="268436048" name="dc" stackId="1" startPc="268435968"/>
-<entry arg="true" endPc="268436412" name="dc" stackId="1" startPc="268436049"/>
-<entry arg="true" endPc="268436412" name="active" stackId="2" startPc="268436049"/>
-<entry endPc="268436408" name="colors" stackId="3" startPc="268436061"/>
-<entry endPc="268436408" name="textColor" stackId="4" startPc="268436061"/>
-<entry arg="true" endPc="268436470" name="dc" stackId="1" startPc="268436413"/>
-<entry arg="true" endPc="268436567" name="dc" stackId="1" startPc="268436471"/>
-<entry arg="true" endPc="268436964" name="dc" stackId="1" startPc="268436568"/>
-<entry endPc="268436963" name="batteryLvl" stackId="2" startPc="268436572"/>
-<entry endPc="268436963" name="batx" stackId="3" startPc="268436572"/>
-<entry endPc="268436963" name="baty" stackId="4" startPc="268436572"/>
-<entry endPc="268436963" name="batIconWid" stackId="5" startPc="268436572"/>
-<entry endPc="268436963" name="batIconHei" stackId="6" startPc="268436572"/>
-<entry endPc="268436963" name="batTipx" stackId="7" startPc="268436572"/>
-<entry endPc="268436963" name="batTipy" stackId="8" startPc="268436572"/>
-<entry endPc="268436963" name="textx" stackId="9" startPc="268436572"/>
-<entry endPc="268436963" name="texty" stackId="10" startPc="268436572"/>
-<entry arg="true" endPc="268437178" name="dc" stackId="1" startPc="268436994"/>
-<entry endPc="268437177" name="weekDayx" stackId="2" startPc="268436998"/>
-<entry endPc="268437177" name="weekDayy" stackId="3" startPc="268436998"/>
-<entry endPc="268437177" name="weekDaystr" stackId="4" startPc="268436998"/>
-<entry arg="true" endPc="268437483" name="dc" stackId="1" startPc="268437179"/>
-<entry endPc="268437482" name="tempx" stackId="2" startPc="268437183"/>
-<entry endPc="268437482" name="tempy" stackId="3" startPc="268437183"/>
-<entry endPc="268437482" name="weather" stackId="4" startPc="268437183"/>
-<entry endPc="268437482" name="temperature" stackId="5" startPc="268437183"/>
-<entry endPc="268437482" name="feelsLike" stackId="6" startPc="268437183"/>
-<entry endPc="268437482" name="temperatureStr" stackId="7" startPc="268437183"/>
-<entry endPc="268437482" name="precipx" stackId="8" startPc="268437183"/>
-<entry endPc="268437482" name="precipy" stackId="9" startPc="268437183"/>
-<entry endPc="268437482" name="precipStr" stackId="10" startPc="268437183"/>
-<entry endPc="268437482" name="precipitationChance" stackId="11" startPc="268437183"/>
-<entry arg="true" endPc="268437663" name="dc" stackId="1" startPc="268437505"/>
-<entry endPc="268437662" name="heartRateStr" stackId="2" startPc="268437509"/>
-<entry endPc="268437662" name="activityInfo" stackId="3" startPc="268437509"/>
-<entry endPc="268437577" name="heartRate" stackId="4" startPc="268437540"/>
-<entry endPc="268437662" name="heartx" stackId="5" startPc="268437509"/>
-<entry endPc="268437662" name="hearty" stackId="6" startPc="268437509"/>
-<entry arg="true" endPc="268437929" name="dc" stackId="1" startPc="268437664"/>
-<entry arg="true" endPc="268438249" name="dc" stackId="1" startPc="268437930"/>
-<entry endPc="268438248" name="datex" stackId="2" startPc="268437934"/>
-<entry endPc="268438248" name="datey" stackId="3" startPc="268437934"/>
-<entry endPc="268438248" name="dateStr" stackId="4" startPc="268437934"/>
-<entry arg="true" endPc="268438307" name="dc" stackId="1" startPc="268438250"/>
+<entry arg="true" endPc="268435796" name="dc" stackId="1" startPc="268435561"/>
+<entry endPc="268435795" name="HMx" stackId="2" startPc="268435565"/>
+<entry endPc="268435795" name="HMy" stackId="3" startPc="268435565"/>
+<entry endPc="268435795" name="hour" stackId="4" startPc="268435565"/>
+<entry endPc="268435795" name="HMstr" stackId="5" startPc="268435565"/>
+<entry arg="true" endPc="268435904" name="dc" stackId="1" startPc="268435810"/>
+<entry endPc="268435903" name="amPm" stackId="2" startPc="268435814"/>
+<entry arg="true" endPc="268435986" name="dc" stackId="1" startPc="268435905"/>
+<entry arg="true" endPc="268436067" name="dc" stackId="1" startPc="268435987"/>
+<entry arg="true" endPc="268436431" name="dc" stackId="1" startPc="268436068"/>
+<entry arg="true" endPc="268436431" name="active" stackId="2" startPc="268436068"/>
+<entry endPc="268436427" name="colors" stackId="3" startPc="268436080"/>
+<entry endPc="268436427" name="textColor" stackId="4" startPc="268436080"/>
+<entry arg="true" endPc="268436489" name="dc" stackId="1" startPc="268436432"/>
+<entry arg="true" endPc="268436586" name="dc" stackId="1" startPc="268436490"/>
+<entry arg="true" endPc="268436983" name="dc" stackId="1" startPc="268436587"/>
+<entry endPc="268436982" name="batteryLvl" stackId="2" startPc="268436591"/>
+<entry endPc="268436982" name="batx" stackId="3" startPc="268436591"/>
+<entry endPc="268436982" name="baty" stackId="4" startPc="268436591"/>
+<entry endPc="268436982" name="batIconWid" stackId="5" startPc="268436591"/>
+<entry endPc="268436982" name="batIconHei" stackId="6" startPc="268436591"/>
+<entry endPc="268436982" name="batTipx" stackId="7" startPc="268436591"/>
+<entry endPc="268436982" name="batTipy" stackId="8" startPc="268436591"/>
+<entry endPc="268436982" name="textx" stackId="9" startPc="268436591"/>
+<entry endPc="268436982" name="texty" stackId="10" startPc="268436591"/>
+<entry arg="true" endPc="268437197" name="dc" stackId="1" startPc="268437013"/>
+<entry endPc="268437196" name="weekDayx" stackId="2" startPc="268437017"/>
+<entry endPc="268437196" name="weekDayy" stackId="3" startPc="268437017"/>
+<entry endPc="268437196" name="weekDaystr" stackId="4" startPc="268437017"/>
+<entry arg="true" endPc="268437502" name="dc" stackId="1" startPc="268437198"/>
+<entry endPc="268437501" name="tempx" stackId="2" startPc="268437202"/>
+<entry endPc="268437501" name="tempy" stackId="3" startPc="268437202"/>
+<entry endPc="268437501" name="weather" stackId="4" startPc="268437202"/>
+<entry endPc="268437501" name="temperature" stackId="5" startPc="268437202"/>
+<entry endPc="268437501" name="feelsLike" stackId="6" startPc="268437202"/>
+<entry endPc="268437501" name="temperatureStr" stackId="7" startPc="268437202"/>
+<entry endPc="268437501" name="precipx" stackId="8" startPc="268437202"/>
+<entry endPc="268437501" name="precipy" stackId="9" startPc="268437202"/>
+<entry endPc="268437501" name="precipStr" stackId="10" startPc="268437202"/>
+<entry endPc="268437501" name="precipitationChance" stackId="11" startPc="268437202"/>
+<entry arg="true" endPc="268437682" name="dc" stackId="1" startPc="268437524"/>
+<entry endPc="268437681" name="heartRateStr" stackId="2" startPc="268437528"/>
+<entry endPc="268437681" name="activityInfo" stackId="3" startPc="268437528"/>
+<entry endPc="268437596" name="heartRate" stackId="4" startPc="268437559"/>
+<entry endPc="268437681" name="heartx" stackId="5" startPc="268437528"/>
+<entry endPc="268437681" name="hearty" stackId="6" startPc="268437528"/>
+<entry arg="true" endPc="268437948" name="dc" stackId="1" startPc="268437683"/>
+<entry arg="true" endPc="268438268" name="dc" stackId="1" startPc="268437949"/>
+<entry endPc="268438267" name="datex" stackId="2" startPc="268437953"/>
+<entry endPc="268438267" name="datey" stackId="3" startPc="268437953"/>
+<entry endPc="268438267" name="dateStr" stackId="4" startPc="268437953"/>
+<entry arg="true" endPc="268438326" name="dc" stackId="1" startPc="268438269"/>
 <entry arg="true" endPc="268438413" name="dc" stackId="1" startPc="268438397"/>
 </localVars>
+<deviceInfo partNumber="006-B3077-00"/>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
 </annotations>
 <dataEntryOffsetMappings>
-<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/Rez" offset="158" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/myFirstWatchFaceView" offset="237" parentId="globals" symbolId="myFirstWatchFaceView" type="class"/>
-<dataEntry label="globals/myFirstWatchFaceApp" offset="460" parentId="globals" symbolId="myFirstWatchFaceApp" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="531" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="570" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Menus" offset="609" parentId="Rez" symbolId="Menus" type="module"/>
-<dataEntry label="globals/Rez/Fonts" offset="640" parentId="Rez" symbolId="Fonts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="671" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry label="globals/Rez/JsonData" offset="710" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Rez" offset="134" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/myFirstWatchFaceView" offset="189" parentId="globals" symbolId="myFirstWatchFaceView" type="class"/>
+<dataEntry label="globals/myFirstWatchFaceApp" offset="412" parentId="globals" symbolId="myFirstWatchFaceApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="483" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="522" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="561" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
@@ -282,79 +274,88 @@
 <functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="myFirstWatchFaceView" startPc="268435510">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435541" name="onExitSleep" parent="myFirstWatchFaceView" startPc="268435529">
+<functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="myFirstWatchFaceApp" startPc="268435529">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435777" name="drawHourMinute" parent="myFirstWatchFaceView" startPc="268435542">
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435560" name="onExitSleep" parent="myFirstWatchFaceView" startPc="268435548">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435796" name="drawHourMinute" parent="myFirstWatchFaceView" startPc="268435561">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435790" name="onShow" parent="myFirstWatchFaceView" startPc="268435778">
+<functionEntry accessMode="public" endPc="268435809" name="onShow" parent="myFirstWatchFaceView" startPc="268435797">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435885" name="drawAmPm" parent="myFirstWatchFaceView" startPc="268435791">
+<functionEntry accessMode="public" endPc="268435904" name="drawAmPm" parent="myFirstWatchFaceView" startPc="268435810">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435967" name="onLayout" parent="myFirstWatchFaceView" startPc="268435886">
+<functionEntry accessMode="public" endPc="268435986" name="onLayout" parent="myFirstWatchFaceView" startPc="268435905">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436048" name="drawSec" parent="myFirstWatchFaceView" startPc="268435968">
+<functionEntry accessMode="public" endPc="268436067" name="drawSec" parent="myFirstWatchFaceView" startPc="268435987">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436412" name="screenSaver" parent="myFirstWatchFaceView" startPc="268436049">
+<functionEntry accessMode="public" endPc="268436431" name="screenSaver" parent="myFirstWatchFaceView" startPc="268436068">
 <param id="dc"/>
 <param id="active"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436470" name="drawTopText" parent="myFirstWatchFaceView" startPc="268436413">
+<functionEntry accessMode="public" endPc="268436489" name="drawTopText" parent="myFirstWatchFaceView" startPc="268436432">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436567" name="drawOutterCircle" parent="myFirstWatchFaceView" startPc="268436471">
+<functionEntry accessMode="public" endPc="268436586" name="drawOutterCircle" parent="myFirstWatchFaceView" startPc="268436490">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436964" name="drawBattery" parent="myFirstWatchFaceView" startPc="268436568">
+<functionEntry accessMode="public" endPc="268436983" name="drawBattery" parent="myFirstWatchFaceView" startPc="268436587">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436993" name="onEnterSleep" parent="myFirstWatchFaceView" startPc="268436965">
+<functionEntry accessMode="public" endPc="268437012" name="onEnterSleep" parent="myFirstWatchFaceView" startPc="268436984">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437178" name="drawWeekDay" parent="myFirstWatchFaceView" startPc="268436994">
+<functionEntry accessMode="public" endPc="268437197" name="drawWeekDay" parent="myFirstWatchFaceView" startPc="268437013">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437483" name="drawWeather" parent="myFirstWatchFaceView" startPc="268437179">
+<functionEntry accessMode="public" endPc="268437502" name="drawWeather" parent="myFirstWatchFaceView" startPc="268437198">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437504" name="initialize" parent="myFirstWatchFaceView" startPc="268437484">
+<functionEntry accessMode="public" endPc="268437523" name="initialize" parent="myFirstWatchFaceView" startPc="268437503">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437663" name="drawHeartRate" parent="myFirstWatchFaceView" startPc="268437505">
+<functionEntry accessMode="public" endPc="268437682" name="drawHeartRate" parent="myFirstWatchFaceView" startPc="268437524">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="myFirstWatchFaceView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437929" name="onUpdate" parent="myFirstWatchFaceView" startPc="268437664">
+<functionEntry accessMode="public" endPc="268437948" name="onUpdate" parent="myFirstWatchFaceView" startPc="268437683">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438249" name="drawDate" parent="myFirstWatchFaceView" startPc="268437930">
+<functionEntry accessMode="public" endPc="268438268" name="drawDate" parent="myFirstWatchFaceView" startPc="268437949">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438307" name="drawBottomText" parent="myFirstWatchFaceView" startPc="268438250">
+<functionEntry accessMode="public" endPc="268438326" name="drawBottomText" parent="myFirstWatchFaceView" startPc="268438269">
 <param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268438326" name="&lt;init&gt;" parent="myFirstWatchFaceApp" startPc="268438308">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268438329" name="onStart" parent="myFirstWatchFaceApp" startPc="268438327">
@@ -369,24 +370,6 @@
 </functionEntry>
 <functionEntry accessMode="public" endPc="268438396" name="onStop" parent="myFirstWatchFaceApp" startPc="268438394">
 <param id="state"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268438413" name="WatchFace" parent="Layouts" startPc="268438397">
