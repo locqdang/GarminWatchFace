@@ -73,7 +73,9 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
         Graphics.COLOR_WHITE,
       ];
 
-      var textColor = colors[clockTime.hour % 5];
+      // get random color
+      Math.srand(clockTime.hour); // seed the random rumber
+      var textColor = colors[((Math.rand() % 5) * clockTime.hour) % 5];
 
       if (clockTime.min % 30 == 0) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
