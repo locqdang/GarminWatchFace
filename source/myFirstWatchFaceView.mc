@@ -31,7 +31,8 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
 
   // Update the view
   function onUpdate(dc as Dc) as Void {
-    View.onUpdate(dc); // Any dc.draw must be donw after this line
+    View.onUpdate(dc); // Any dc.draw must be done after this line
+    
     // Get the current time
     clockTime = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
 
@@ -79,6 +80,7 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       ); // seed the random rumber
       var textColor = colors[((Math.rand() % 5) * clockTime.hour) % 5];
 
+      // invert the color every 30 mins
       if (clockTime.min % 30 == 0) {
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.fillCircle(screenWidth / 2, screenHeight / 2, screenWidth / 2);
@@ -203,10 +205,10 @@ class myFirstWatchFaceView extends WatchUi.WatchFace {
       "DOMINGO",
       "LUNES",
       "MARTES",
-      "MI\u00C9RCOLES",
+      "MI\u00C9RCOLES", // MIERCOLES
       "JUEVES",
       "VIERNES",
-      "S\u00C1BADO",
+      "S\u00C1BADO",    // SABADO
     ][clockTime.day_of_week - 1];
 
     // draw weekDay
